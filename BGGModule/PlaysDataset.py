@@ -50,18 +50,20 @@ class PlaysDataset:
     def points(self):
         val = {}
         winners_count = self.winners_count()
-
-        for idx, player in enumerate(sorted(self.players, key=lambda players: players.score, reverse=False)):
-            score = 0
+        self.players = sorted(self.players, key=lambda players: players.score, reverse=False)
+        for idx, player in enumerate(self.players):
+            points = 0
             if player.score == 0:
                 if player.won:
-                    score = len(self.players) - winners_count
+                    points = len(self.players) - winners_count
             elif player.won:
-                score = len(self.players) - winners_count
+                points = len(self.players) - winners_count
             else:
-                score = idx
+                points = idx
+                if idx > 0 and self.players[idx - 1].score == player.score:
+                    _, points = list(val.items())[-1]
 
-            val[player.name] = score
+            val[player.name] = points
 
         return val
 
@@ -111,6 +113,38 @@ def two_winners():
     player1.name = "Player 1"
     player1.won = True
     player1.score = 10
+
+    player2 = PlayerDataset()
+    player2.name = "Player 2"
+    player2.won = False
+    player2.score = 8
+
+    player3 = PlayerDataset()
+    player3.name = "Player 3"
+    player3.won = False
+    player3.score = 1
+
+    plays_dataset.add_player(player_w)
+    plays_dataset.add_player(player1)
+    plays_dataset.add_player(player2)
+    plays_dataset.add_player(player3)
+
+    return plays_dataset
+
+
+def second_place_tie():
+    plays_dataset = PlaysDataset()
+    plays_dataset.game_name = "Score Game"
+
+    player_w = PlayerDataset()
+    player_w.name = "Winner"
+    player_w.won = True
+    player_w.score = 10
+
+    player1 = PlayerDataset()
+    player1.name = "Player 1"
+    player1.won = False
+    player1.score = 8
 
     player2 = PlayerDataset()
     player2.name = "Player 2"
@@ -190,16 +224,20 @@ if __name__ == "__main__":
 
     tmp = one_winner()
 
-    print(tmp.points())
+    #print(tmp.points())
 
     tmp = two_winners()
+
+    #print(tmp.points())
+
+    tmp = second_place_tie()
 
     print(tmp.points())
 
     tmp = one_winner_no_score()
 
-    print(tmp.points())
+    #print(tmp.points())
 
     tmp = two_winner_no_score()
 
-    print(tmp.points())
+    #print(tmp.points())
