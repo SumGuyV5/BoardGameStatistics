@@ -224,11 +224,11 @@ if __name__ == "__main__":
 
     tmp = one_winner()
 
-    #print(tmp.points())
+    print(tmp.points())
 
     tmp = two_winners()
 
-    #print(tmp.points())
+    print(tmp.points())
 
     tmp = second_place_tie()
 
@@ -236,8 +236,8 @@ if __name__ == "__main__":
 
     tmp = one_winner_no_score()
 
-    #print(tmp.points())
+    print(tmp.points())
 
     tmp = two_winner_no_score()
 
-    #print(tmp.points())
+    print(tmp.points())

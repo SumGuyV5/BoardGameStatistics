@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="utf-8"?><plays username="SumGuyV5" userid="508171" total="1196" page="11" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+<play id="14383216" date="2015-03-29" quantity="1" length="95" incomplete="1" nowinstats="1" location="Tanya&apos;s house">
+			<item name="Citadels" objecttype="thing" objectid="478">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Charlene" startposition="5" color="" score="21" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="24" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="27" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="24" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="29" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14383218" date="2015-03-29" quantity="1" length="88" incomplete="1" nowinstats="1" location="Tanya&apos;s house">
+			<item name="Sheriff of Nottingham" objecttype="thing" objectid="157969">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="" color="Blue" score="163" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="" color="Red" score="158" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="" color="Purple" score="147" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="" color="Green" score="159" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="" color="Yellow" score="199" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14320999" date="2015-03-22" quantity="1" length="0" incomplete="1" nowinstats="1" location="Julie&apos;s House">
+			<item name="Mascarade" objecttype="thing" objectid="139030">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="6" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="1" color="" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14618450" date="2015-03-22" quantity="1" length="0" incomplete="1" nowinstats="1" location="Julie&apos;s house">
+			<item name="Mascarade" objecttype="thing" objectid="139030">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="6" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="1" color="" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14320998" date="2015-03-22" quantity="1" length="25" incomplete="1" nowinstats="1" location="Julie&apos;s House">
+			<item name="Saboteur" objecttype="thing" objectid="9220">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="0" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="2" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="3" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="4" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="6" color="" score="3" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="1" color="" score="3" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14254954" date="2015-03-15" quantity="1" length="62" incomplete="1" nowinstats="1" location="Tanya&apos;s house">
+			<item name="Bohnanza" objecttype="thing" objectid="11">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Charlene" startposition="5" color="" score="7" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="11" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="12" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="7" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="6" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="6" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14254093" date="2015-03-15" quantity="1" length="17" incomplete="1" nowinstats="1" location="Tanya&apos;s house">
+			<item name="For Sale" objecttype="thing" objectid="172">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Charlene" startposition="5" color="" score="44" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="46" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="36" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="45" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="41" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="45" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14255885" date="2015-03-15" quantity="1" length="0" incomplete="1" nowinstats="1" location="Tanya&apos;s house">
+			<item name="Story War" objecttype="thing" objectid="137550">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Charlene" startposition="5" color="" score="3" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="0" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="3" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="1" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="3" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="1" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14253686" date="2015-03-15" quantity="1" length="54" incomplete="1" nowinstats="1" location="Tanya&apos;s house">
+			<item name="Things..." objecttype="thing" objectid="10934">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Charlene" startposition="5" color="" score="9" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="10" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="0" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="9" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="1" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="7" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14235395" date="2015-03-14" quantity="1" length="0" incomplete="1" nowinstats="1" location="Tabs Con">
+			<item name="Cyclades" objecttype="thing" objectid="54998">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Play 2" startposition="2" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 4" startposition="4" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 3" startposition="3" color="" score="" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14233539" date="2015-03-14" quantity="1" length="0" incomplete="1" nowinstats="1" location="Tabs Con">
+			<item name="Sentinels of the Multiverse" objecttype="thing" objectid="102652">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Player 5" startposition="5" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 4" startposition="4" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 3" startposition="3" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 2" startposition="2" color="" score="" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Lagcy" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14233880" date="2015-03-14" quantity="1" length="28" incomplete="1" nowinstats="1" location="Tabs Con">
+			<item name="Sentinels of the Multiverse" objecttype="thing" objectid="102652">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Player 5" startposition="5" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 4" startposition="4" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 3" startposition="3" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Play 2" startposition="2" color="" score="" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14193597" date="2015-03-08" quantity="1" length="70" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="7 Wonders" objecttype="thing" objectid="68448">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Ephesus B" score="51" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Alexandre A" score="50" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Gaza B" score="30" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="Rhodes A" score="45" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="5" color="Olympic A" score="57" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="6" color="Halikarnassos A" score="33" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="7" color="Babylon" score="44" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14193769" date="2015-03-08" quantity="1" length="0" incomplete="1" nowinstats="1" location="Julies House">
+			<item name="Bohnanza" objecttype="thing" objectid="11">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="5" color="" score="8" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="7" color="" score="7" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="4" color="" score="7" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="3" color="" score="9" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="7" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="5" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="9" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14130347" date="2015-03-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="Charlene&apos;s App">
+			<item name="7 Wonders" objecttype="thing" objectid="68448">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Charlene" startposition="1" color="" score="47" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="48" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="" score="42" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="36" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="5" color="" score="45" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14130360" date="2015-03-01" quantity="1" length="72" incomplete="0" nowinstats="0" location="Charlene&apos;s App">
+			<item name="Cards Against Humanity" objecttype="thing" objectid="50381">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="6" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="" score="9" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="1" color="" score="4" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14130348" date="2015-03-01" quantity="1" length="12" incomplete="0" nowinstats="0" location="Charlene&apos;s App">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="Spy reverser" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="Resistance commander" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Resistance reverse" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="1" color="Spy assassin" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14130351" date="2015-03-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="Charlene&apos;s App">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="Spy assassin" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="Spy" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="Resistance commander" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="1" color="Resistance" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14130354" date="2015-03-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="Charlene&apos;s App">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="4" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Spy" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="1" color="Spy" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="" color="Resistance" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14130356" date="2015-03-01" quantity="1" length="12" incomplete="0" nowinstats="0" location="Charlene&apos;s App">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="Spy reverser" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="Resistance commander" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Resistance reverse" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="1" color="Spy assassin" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14130357" date="2015-03-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="Charlene&apos;s App">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="Spy assassin" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="Spy" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="Resistance commander" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="1" color="Resistance" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14076776" date="2015-02-22" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="Alhambra" objecttype="thing" objectid="6249">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="79" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="82" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="77" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="94" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="75" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14059917" date="2015-02-22" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="For Sale" objecttype="thing" objectid="172">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="2" color="" score="51" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="61" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="62" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="55" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14060095" date="2015-02-22" quantity="1" length="12" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="For Sale" objecttype="thing" objectid="172">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="2" color="" score="42" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="58" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="60" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="71" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="14076777" date="2015-02-22" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="For Sale" objecttype="thing" objectid="172">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="40" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="33" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="35" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="45" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="6" color="" score="59" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="34" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14076778" date="2015-02-22" quantity="1" length="11" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="For Sale" objecttype="thing" objectid="172">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="45" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="40" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="44" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="39" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="6" color="" score="53" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="31" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14076779" date="2015-02-22" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="For Sale" objecttype="thing" objectid="172">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="39" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="30" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="39" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="50" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="6" color="" score="42" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="47" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="14059507" date="2015-02-22" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Hanabi" objecttype="thing" objectid="98778">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13991904" date="2015-02-15" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="7 Wonders" objecttype="thing" objectid="68448">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="43" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="42" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="47" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="45" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="5" color="" score="66" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="42" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13989765" date="2015-02-15" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Things..." objecttype="thing" objectid="10934">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Charlene" startposition="5" color="" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="12" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="9" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="16" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="9" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="15" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13927849" date="2015-02-08" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="7 Wonders" objecttype="thing" objectid="68448">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="1" color="" score="49" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="52" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="" score="42" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="62" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="5" color="" score="47" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13927848" date="2015-02-08" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="Forbidden Desert" objecttype="thing" objectid="136063">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13867336" date="2015-02-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Forbidden Desert" objecttype="thing" objectid="136063">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="1" color="" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13866132" date="2015-02-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Spy Alley" objecttype="thing" objectid="1986">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="4" color="Italian" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="American" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="Spanish" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="1" color="French" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13867444" date="2015-02-01" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Ticket to Ride: Europe" objecttype="thing" objectid="14996">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="2" color="Yellow" score="108" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="4" color="Red" score="112" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="Blue" score="121" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Black" score="86" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13794346" date="2015-01-25" quantity="1" length="23" incomplete="1" nowinstats="1" location="Julie&apos;s House">
+			<item name="Ca$h &#039;n Guns (Second Edition)" objecttype="thing" objectid="155362">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="" score="217000" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Dead" score="0" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Dead" score="0" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="140000" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="136000" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="150000" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13794348" date="2015-01-25" quantity="1" length="30" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="Ca$h &#039;n Guns (Second Edition)" objecttype="thing" objectid="155362">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="" score="140000" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Dead" score="54000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Dead" score="56000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="365000" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="100000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="116000" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13794343" date="2015-01-25" quantity="1" length="20" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Resistance hunter" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Resistance coordinator" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Resistance cheif" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Spy hunter" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="6" color="Resistance dummy agent" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Spy chief" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13794344" date="2015-01-25" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Spy chief" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Resistance hunter" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="6" color="Resistance cheif" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Spy hunter" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13738575" date="2015-01-18" quantity="1" length="0" incomplete="0" nowinstats="0" location="Terry&apos;s Apt">
+			<item name="Dixit" objecttype="thing" objectid="39856">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13738565" date="2015-01-18" quantity="1" length="0" incomplete="0" nowinstats="0" location="Terry&apos;s Apt">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13738566" date="2015-01-18" quantity="1" length="0" incomplete="0" nowinstats="0" location="Terry&apos;s Apt">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13738568" date="2015-01-18" quantity="1" length="0" incomplete="0" nowinstats="0" location="Terry&apos;s Apt">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13654119" date="2015-01-11" quantity="1" length="17" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="Resistance dummy agen" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Spy chief" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Spy hunter" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Resistance cheif" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Resistance coordinator" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Resistance hunter" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13654120" date="2015-01-11" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="Resistance cheif" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Resistance hunter" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Spy hunter" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Spy chief" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Resistance" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13654121" date="2015-01-11" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Spy" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Spy" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13661474" date="2015-01-11" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="Spy hunter" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Resistance dummy agent" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Spy chief" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Resistance cheif" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Resistance hunter" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Resistance coordinator" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13654118" date="2015-01-11" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Saboteur" objecttype="thing" objectid="9220">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Saboteur" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Saboteur" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13578956" date="2015-01-04" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="7" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Spy" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Spy defector" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Spy reverser" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Resistance reverse" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Resistance defector" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13578958" date="2015-01-04" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Resistance pretender" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="7" color="Spy" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Spy deep agent" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Spy defector" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Resistance defector" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13578959" date="2015-01-04" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+						<comments>Defector</comments>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="7" color="Spy" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Spy defector" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Spy" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Resistance defector" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Resistance" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13578960" date="2015-01-04" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="Wits &amp; Wagers" objecttype="thing" objectid="20100">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Orange" score="14" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="7" color="Blue" score="10" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Green" score="0" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Red" score="0" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Purple" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Yellow" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Gray" score="10" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13578961" date="2015-01-04" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s House">
+			<item name="Wits &amp; Wagers" objecttype="thing" objectid="20100">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Orange" score="23" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="7" color="Blue" score="24" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Green" score="0" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Red" score="0" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="Purple" score="17" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Yellow" score="0" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Gray" score="17" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13509917" date="2014-12-31" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="" color="Spy" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Raymon" startposition="" color="Resistance" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Kelly" startposition="" color="Spy" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Shelly" startposition="" color="Resistance" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="" color="Resistance" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jay" startposition="" color="Resistance" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13509945" date="2014-12-31" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Shelly" startposition="7" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Spy" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Kelly" startposition="9" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Raymon" startposition="6" color="Spy" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jay" startposition="8" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Spy" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13509962" date="2014-12-31" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="The Resistance" objecttype="thing" objectid="41114">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Julie" startposition="5" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Shelly" startposition="7" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Spy" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Spy" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Kelly" startposition="9" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Raymon" startposition="6" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jay" startposition="8" color="Resistance" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Spy" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13475925" date="2014-12-28" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Wits &amp; Wagers Party" objecttype="thing" objectid="123239">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Yellow" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="1" color="Yellow" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="Blue" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="2" color="Blue" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="3" color="Purple" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Other" startposition="4" color="Red" score="" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13475940" date="2014-12-28" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Wits &amp; Wagers Party" objecttype="thing" objectid="123239">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="1" color="Blue" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Blue" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="2" color="Purple" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Other" startposition="3" color="Red" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="4" color="Yellow" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Charlene" startposition="4" color="Yellow" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13300254" date="2014-12-07" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Jamaica" objecttype="thing" objectid="28023">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="Green" score="7" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="1" color="Blue" score="8" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="Red" score="35" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="Yellow" score="16" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="6" color="Purple" score="2" new="1" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="Black" score="-5" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13297977" date="2014-12-07" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Sheriff of Nottingham" objecttype="thing" objectid="157969">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+						<comments>Danmon and Terry shared team</comments>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="2" color="Red" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="Blue" score="175" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="2" color="Red" score="149" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="1" color="Purple" score="208" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Charlene" startposition="3" color="Yellow" score="212" new="1" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="5" color="Green" score="110" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13251177" date="2014-11-30" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Citadels" objecttype="thing" objectid="478">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="5" color="" score="20" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="4" color="" score="27" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="16" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="32" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="6" color="" score="23" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="24" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13251157" date="2014-11-30" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Dixit" objecttype="thing" objectid="39856">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Mark" startposition="" color="Yellow" score="18" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="" color="Green" score="30" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Alyssa" startposition="" color="Pink" score="8" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="" color="Star" score="20" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="" color="Blue" score="24" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="" color="Hart" score="18" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="" color="Red" score="25" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="" color="White" score="20" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13186231" date="2014-11-23" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Aye, Dark Overlord! The Red Box" objecttype="thing" objectid="18723">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13186404" date="2014-11-23" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Aye, Dark Overlord! The Red Box" objecttype="thing" objectid="18723">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13186527" date="2014-11-23" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Aye, Dark Overlord! The Red Box" objecttype="thing" objectid="18723">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13187483" date="2014-11-23" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Jamaica" objecttype="thing" objectid="28023">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="27" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="24" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="0" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="8" new="1" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="12" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13188037" date="2014-11-23" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Saboteur" objecttype="thing" objectid="9220">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="4" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="2" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="2" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="5" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="4" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13188371" date="2014-11-23" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Saboteur" objecttype="thing" objectid="9220">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="6" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="1" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="2" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="3" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="9" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13189628" date="2014-11-16" quantity="1" length="87" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="UNO" objecttype="thing" objectid="2223">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="" color="" score="432" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="" color="" score="156" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="" color="" score="466" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="" color="" score="359" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="" color="" score="213" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13076013" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="Ca$h &#039;n Guns (Second Edition)" objecttype="thing" objectid="155362">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+						<comments>Richard killed</comments>
+									<players>
+									<player username="" userid="0" name="Alex" startposition="5" color="" score="82000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="130000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="122000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="203000" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Arden" startposition="6" color="" score="70000" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="35000" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13075569" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="Cards Against Humanity" objecttype="thing" objectid="50381">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameintegration" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Alex" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Arden" startposition="6" color="" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13075078" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Alex" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Arden" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13075080" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Alex" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Arden" startposition="6" color="" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13073726" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="The Resistance: Avalon" objecttype="thing" objectid="128882">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Alex" startposition="5" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Arden" startposition="6" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Loyal" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13073943" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="The Resistance: Avalon" objecttype="thing" objectid="128882">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Alex" startposition="5" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Arden" startposition="6" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Loyal" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13074411" date="2014-11-09" quantity="1" length="22" incomplete="0" nowinstats="0" location="Richard">
+			<item name="The Resistance: Avalon" objecttype="thing" objectid="128882">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Alex" startposition="5" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Arden" startposition="6" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="Loyal" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13072987" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="Zombie Dice" objecttype="thing" objectid="62871">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="4" color="" score="14" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="4" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="0" new="1" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="9" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13073292" date="2014-11-09" quantity="1" length="0" incomplete="0" nowinstats="0" location="Richard">
+			<item name="Zombie Dice" objecttype="thing" objectid="62871">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="2" color="" score="10" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="13" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="6" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13025262" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Ca$h &#039;n Guns (Second Edition)" objecttype="thing" objectid="155362">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+						<comments>Richard dead</comments>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="" score="195000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="202000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Dempsey" startposition="3" color="" score="53000" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="0" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="84000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="145000" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13025263" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Ca$h &#039;n Guns (Second Edition)" objecttype="thing" objectid="155362">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="5" color="" score="55000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="7" color="" score="123000" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Dempsey" startposition="4" color="" score="110000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="120000" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="67000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="76000" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="110000" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13025256" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Dempsey" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13025258" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Dempsey" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13025260" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Dempsey" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="13025261" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Jeff" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Dempsey" startposition="3" color="" score="" new="1" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="6" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13022868" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="The Resistance: Avalon" objecttype="thing" objectid="128882">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Dempsey" startposition="5" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="7" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="4" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="6" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Loyal" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13025264" date="2014-11-02" quantity="1" length="17" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="The Resistance: Avalon" objecttype="thing" objectid="128882">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="5" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Dempsey" startposition="4" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="" color="Loyal" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="13025265" date="2014-11-02" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="The Resistance: Avalon" objecttype="thing" objectid="128882">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Terry" startposition="5" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Dempsey" startposition="4" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="Mordred" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="Loyal" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="1" color="Loyal" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12914615" date="2014-10-19" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="BANG! The Dice Game" objecttype="thing" objectid="143741">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12914885" date="2014-10-19" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="BANG! The Dice Game" objecttype="thing" objectid="143741">
+				<subtypes>
+										<subtype value="boardgame" />
+										<subtype value="boardgameimplementation" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Outlaw" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Outlaw" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Renegade" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="Sheriff" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="1" color="Outlaw" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12915217" date="2014-10-19" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Concept" objecttype="thing" objectid="147151">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="" score="12" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="11" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="4" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="8" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="5" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="1" color="" score="3" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12913892" date="2014-10-19" quantity="1" length="0" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Julie" startposition="1" color="" score="" new="1" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12914237" date="2014-10-19" quantity="1" length="19" incomplete="0" nowinstats="0" location="Julie&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12913852" date="2014-10-19" quantity="1" length="29" incomplete="0" nowinstats="1" location="Julie&apos;s house">
+			<item name="Two Rooms and a Boom" objecttype="thing" objectid="134352">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Blue" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Boom" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="1" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="Red" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="1" color="Pez" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="12916138" date="2014-10-19" quantity="1" length="0" incomplete="0" nowinstats="1" location="Julie&apos;s house">
+			<item name="Two Rooms and a Boom" objecttype="thing" objectid="134352">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="5" color="Boom" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="Blue" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="Gambler" score="" new="0" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="2" color="Red" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Julie" startposition="1" color="Pez" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12818093" date="2014-10-05" quantity="1" length="143" incomplete="1" nowinstats="1" location="Tanya&apos;s house">
+			<item name="Betrayal at House on the Hill" objecttype="thing" objectid="10547">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="2" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="5" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="4" color="" score="" new="1" rating="0" win="1" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="1" rating="0" win="1" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="12816294" date="2014-10-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+						<comments>First time with expansion factions only.</comments>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12816472" date="2014-10-05" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+						<comments>First time with expansion factions and inquirer.</comments>
+									<players>
+									<player username="" userid="0" name="Damon" startposition="5" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Terry" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12770240" date="2014-09-28" quantity="1" length="29" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Concept" objecttype="thing" objectid="147151">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="1" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="" new="1" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="1" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="12769648" date="2014-09-28" quantity="1" length="0" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="12769712" date="2014-09-28" quantity="1" length="7" incomplete="0" nowinstats="0" location="Tanya&apos;s house">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="" userid="0" name="Tanya" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Jeff" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	</plays>
