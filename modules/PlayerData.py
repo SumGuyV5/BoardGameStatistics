@@ -26,13 +26,21 @@ class PlayerData:
 
     @property
     def players_info(self):
-        if BGGModule.Functions.new_download(6):
+        if BGGModule.Functions.new_download(6) or self.files_exists("play", self.count_to) is False:
             self.count_to = BGGModule.Functions.play_count(self.username, self.pagesize)
             self.downloadXML.download_all(self.url, "plays", self.count_to)
         if not self.__players_info or BGGModule.Functions.new_download(6):
             self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)
             self.__players_info = self.readXML.load_info(self.ignore)
         return self.__players_info
+
+    @staticmethod
+    def files_exists(filename, count_to):
+        path = os.path.join(os.getcwd(), filename)
+        for i in range(1, count_to + 1):
+            if os.path.isfile(f'{path}{i}.xml') is False:
+                return False
+        return True
 
     def force_refresh(self):
         self.count_to = BGGModule.Functions.play_count(self.username, self.pagesize)
