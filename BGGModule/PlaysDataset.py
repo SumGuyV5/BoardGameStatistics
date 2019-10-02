@@ -27,10 +27,25 @@ class PlaysDataset:
         self.now_in_state = 0
         self.location = ""
 
-        self.game_name = ""
+        self._game_name = ""
         self.gameid = 0
 
+        self.__lower_is_better__ = False
+
         self.players = []
+
+    @property
+    def game_name(self):
+        return self._game_name
+
+    @game_name.setter
+    def game_name(self, value):
+        lower_lst = ['No Thanks!']
+        self._game_name = value
+        for lower in lower_lst:
+            if value == lower:
+                self.__lower_is_better__ = True
+                break
 
     def add_player(self, player):
         self.players.append(player)
@@ -54,7 +69,7 @@ class PlaysDataset:
     def points(self):
         val = {}
         winners_count = self.winners_count()
-        self.players = sorted(self.players, key=lambda players: players.score, reverse=False)
+        self.players = sorted(self.players, key=lambda players: players.score, reverse=self.__lower_is_better__)
         for idx, player in enumerate(self.players):
             points = 0
             if player.score == 0:
@@ -224,6 +239,37 @@ def two_winner_no_score():
     return plays_dataset
 
 
+def one_winner_lower_is_better():
+    plays_dataset = PlaysDataset()
+    plays_dataset.game_name = "No Thanks!"
+
+    player_w = PlayerDataset()
+    player_w.name = "Winner"
+    player_w.won = True
+    player_w.score = 1
+
+    player1 = PlayerDataset()
+    player1.name = "Player 1"
+    player1.won = False
+    player1.score = 8
+
+    player2 = PlayerDataset()
+    player2.name = "Player 2"
+    player2.won = False
+    player2.score = 9
+
+    player3 = PlayerDataset()
+    player3.name = "Player 3"
+    player3.won = False
+    player3.score = 10
+
+    plays_dataset.add_player(player_w)
+    plays_dataset.add_player(player1)
+    plays_dataset.add_player(player2)
+    plays_dataset.add_player(player3)
+
+    return plays_dataset
+
 if __name__ == "__main__":
 
     tmp = one_winner()
@@ -243,5 +289,9 @@ if __name__ == "__main__":
     print(tmp.points())
 
     tmp = two_winner_no_score()
+
+    print(tmp.points())
+
+    tmp = one_winner_lower_is_better()
 
     print(tmp.points())

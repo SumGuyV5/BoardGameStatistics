@@ -25,7 +25,7 @@ playerdatasets = db.Table('player_datasets',
 
 
 class PlayersPlayDataset(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, unique=True, primary_key=True)
     playerdatasets = db.relationship('PlayerDataset', secondary=playerdatasets, lazy='subquery',
                                      backref=db.backref('players_play_datasets', lazy=True))
     gamedataset = db.relationship('GameDataset', backref='players_play_dataset', lazy=True)
@@ -38,7 +38,7 @@ class PlayersPlayDataset(db.Model):
 
 
 class PlayerDataset(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, unique=True, primary_key=True)
     username = db.Column(db.String(120))
     userid = db.Column(db.Integer)
     name = db.Column(db.String(120))
