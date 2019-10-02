@@ -20,13 +20,17 @@ from BGGModule.PlayerDataset import PlayerDataset
 class PlaysDataset:
     def __init__(self):
         self.id = 0
-        self.game_name = ""
+        self._date = datetime.date.today()
+        self.quantity = 1
         self.length = 0
-        self.location = ""
         self.incomplete = 0
         self.now_in_state = 0
+        self.location = ""
+
+        self.game_name = ""
+        self.gameid = 0
+
         self.players = []
-        self._date = datetime.date.today()
 
     def add_player(self, player):
         self.players.append(player)

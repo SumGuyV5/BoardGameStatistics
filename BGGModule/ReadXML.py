@@ -55,14 +55,17 @@ class ReadXML:
     def _read_xml_plays(dom):
         rtn = PlaysDataset()
         rtn.id = int(dom.attributes['id'].value)
-        rtn.length = int(dom.attributes['length'].value)
-        rtn.location = dom.attributes['location'].value
-        rtn.incomplete = int(dom.attributes['incomplete'].value)
-        rtn.now_in_state = int(dom.attributes['nowinstats'].value)
         rtn.date(dom.attributes['date'].value)
+        rtn.quantity = int(dom.attributes['quantity'].value)
+        rtn.length = int(dom.attributes['length'].value)
+        rtn.incomplete = bool(int(dom.attributes['incomplete'].value))
+        rtn.now_in_state = int(dom.attributes['nowinstats'].value)
+        rtn.location = dom.attributes['location'].value
+
         items = dom.getElementsByTagName("item")
         for item in items:
             rtn.game_name = item.attributes['name'].value
+            rtn.gameid = int(item.attributes['objectid'].value)
 
         return rtn
 
@@ -75,14 +78,20 @@ class ReadXML:
     def _load_players(player):
         rtn = PlayerDataset()
         rtn.username = player.attributes['username'].value
+        rtn.userid = int(player.attributes['userid'].value)
         rtn.name = player.attributes['name'].value
-        rtn.colour = player.attributes['color'].value
-        rtn.won = bool(int(player.attributes['win'].value))
-        rtn.new = bool(int(player.attributes['new'].value))
         try:
-            rtn.points = int(player.attributes['score'].value)
+            rtn.startposition = int(player.attributes['startposition'].value)
         except ValueError:
             pass
+        rtn.colour = player.attributes['color'].value
+        try:
+            rtn.score = int(player.attributes['score'].value)
+        except ValueError:
+            pass
+        rtn.new = bool(int(player.attributes['new'].value))
+        rtn.rating = int(player.attributes['rating'].value)
+        rtn.won = bool(int(player.attributes['win'].value))
 
         return rtn
 

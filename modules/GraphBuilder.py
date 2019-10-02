@@ -50,7 +50,7 @@ def build_graph(feature_name, players_info):
 
     p.xgrid.grid_line_color = None
     p.y_range.start = 0
-    p.y_range.end = heights_num + (100 * 0.20)
+    # p.y_range.end = heights_num + (100 * 0.20)
     p.legend.orientation = "vertical"
     p.legend.location = "top_right"
     p.legend.click_policy = "hide"

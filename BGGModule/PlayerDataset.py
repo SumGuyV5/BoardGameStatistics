@@ -18,11 +18,14 @@
 class PlayerDataset:
     def __init__(self):
         self.username = ""
+        self.userid = 0
         self.name = ""
+        self.startposition = 0
         self.colour = ""
-        self.new = False
-        self.won = False
         self.score = 0
+        self.new = False
+        self.rating = 0
+        self.won = False
 
 
 if __name__ == "__main__":

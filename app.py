@@ -11,7 +11,8 @@ feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Los
 
 @app.route('/refresh')
 def refresh():
-    player_data.force_refresh()
+    from Database import rebuild_database
+    rebuild_database()
     return render_template('index.html')
 
 
@@ -19,7 +20,7 @@ def refresh():
 def index():
     current_feature_name = request.args.get("feature_name")
     if current_feature_name is None:
-        current_feature_name = "Win Percentage"
+        current_feature_name = feature_names[0]
 
     script, div = build_graph(current_feature_name, player_data.players_info)
     return render_template('index.html', script=script, div=div, feature_names=feature_names,
