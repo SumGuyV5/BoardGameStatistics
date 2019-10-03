@@ -24,7 +24,7 @@ class PlaysDataset:
         self.quantity = 1
         self.length = 0
         self.incomplete = 0
-        self.now_in_state = 0
+        self.now_in_stats = 0
         self.location = ""
 
         self._game_name = ""
@@ -45,7 +45,6 @@ class PlaysDataset:
         for lower in lower_lst:
             if value == lower:
                 self.__lower_is_better__ = True
-                break
 
     def add_player(self, player):
         self.players.append(player)
@@ -68,8 +67,9 @@ class PlaysDataset:
 
     def points(self):
         val = {}
+
         winners_count = self.winners_count()
-        self.players = sorted(self.players, key=lambda players: players.score, reverse=self.__lower_is_better__)
+        self.players = sorted(self.players, key=lambda players: players.score, reverse=False)
         for idx, player in enumerate(self.players):
             points = 0
             if player.score == 0:
@@ -270,6 +270,7 @@ def one_winner_lower_is_better():
 
     return plays_dataset
 
+
 if __name__ == "__main__":
 
     tmp = one_winner()
@@ -292,6 +293,6 @@ if __name__ == "__main__":
 
     print(tmp.points())
 
-    tmp = one_winner_lower_is_better()
+    tmp = one_winner_no_score()
 
     print(tmp.points())

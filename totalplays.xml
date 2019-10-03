@@ -1,5 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><plays username="SumGuyV5" userid="508171" total="1196" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
-<play id="37910979" date="2019-09-22" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+<?xml version="1.0" encoding="utf-8"?><plays username="SumGuyV5" userid="508171" total="1199" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+<play id="38023491" date="2019-09-29" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Asking for Trobils" objecttype="thing" objectid="156442">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="32" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="30" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="41" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Arden" startposition="4" color="" score="35" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Shelly" startposition="5" color="" score="29" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Alex" startposition="6" color="" score="32" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="38021178" date="2019-09-29" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Arden" startposition="5" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Shelly" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="38024370" date="2019-09-29" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Machi Koro" objecttype="thing" objectid="143884">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="2" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Arden" startposition="3" color="" score="3" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Alex" startposition="4" color="" score="4" new="0" rating="0" win="1" />
+						</players>
+					</play>
+	<play id="37910979" date="2019-09-22" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
 			<item name="Power Grid" objecttype="thing" objectid="2651">
 				<subtypes>
 										<subtype value="boardgame" />
@@ -1365,49 +1408,6 @@
 						<player username="" userid="0" name="Jeff" startposition="2" color="" score="15" new="0" rating="0" win="0" />
 						<player username="" userid="0" name="Tanya" startposition="3" color="" score="20" new="0" rating="0" win="1" />
 						<player username="" userid="0" name="Dimetre" startposition="4" color="" score="19" new="0" rating="0" win="0" />
-						</players>
-					</play>
-	<play id="33112238" date="2019-01-06" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Mystic Vale" objecttype="thing" objectid="194607">
-				<subtypes>
-										<subtype value="boardgame" />
-									</subtypes>
-			</item>
-									<players>
-									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="40" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Jeff" startposition="2" color="" score="18" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Tanya" startposition="3" color="" score="47" new="0" rating="0" win="1" />
-						<player username="" userid="0" name="Dimetre" startposition="4" color="" score="25" new="0" rating="0" win="0" />
-						</players>
-					</play>
-	<play id="33113975" date="2019-01-06" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Red7" objecttype="thing" objectid="161417">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameimplementation" />
-									</subtypes>
-			</item>
-									<players>
-									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Jeff" startposition="2" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Dimetre" startposition="4" color="" score="30" new="0" rating="0" win="1" />
-						</players>
-					</play>
-	<play id="32899749" date="2018-12-31" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
-			<item name="Catan" objecttype="thing" objectid="13">
-				<subtypes>
-										<subtype value="boardgame" />
-										<subtype value="boardgameintegration" />
-									</subtypes>
-			</item>
-									<players>
-									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="1" />
-						<player username="" userid="0" name="Jeff" startposition="2" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Damon" startposition="3" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Charlene" startposition="4" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Arden" startposition="5" color="" score="" new="0" rating="0" win="0" />
-						<player username="" userid="0" name="Alex" startposition="6" color="" score="" new="0" rating="0" win="0" />
 						</players>
 					</play>
 	</plays>
