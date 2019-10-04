@@ -1,3 +1,4 @@
+import operator
 from app import db
 from BGGModule.PlaysXMLDataset import PlaysXMLDataset
 from BGGModule.PlayerXMLDataset import PlayerXMLDataset
@@ -12,31 +13,7 @@ def load_database():
     rtn = []
     all_datas = db.session.query(PlayDataset).all()
     for data in all_datas:
-        plays = PlaysXMLDataset()
-        plays.id = data.id
-        plays.date = data.date
-        plays.quantity = data.quantity
-        plays.length = data.length
-        plays.incomplete = data.incomplete
-        plays.nowinstats = data.nowinstats
-        plays.location = data.location
-
-        plays.game_name = data.gamedataset.name
-        plays.gameid = data.gamedataset.id
-
-        for playersplay in data.playersplaydataset:
-            players = PlayerXMLDataset()
-            players.username = playersplay.playerdataset.username
-            players.userid = playersplay.playerdataset.userid
-            players.name = playersplay.playerdataset.name
-            players.startposition = playersplay.startposition
-            players.colour = playersplay.colour
-            players.score = playersplay.score
-            players.new = playersplay.new
-            players.rating = playersplay.rating
-            players.won = playersplay.won
-            plays.players.append(players)
-        rtn.append(plays)
+        rtn.append(data.plays_xml_dataset())
     return rtn
 
 
@@ -94,6 +71,24 @@ class PlayDataset(db.Model):
     playersplaydataset = db.relationship('PlayersPlayDataset',
                                          backref=db.backref('play_dataset', lazy=True))  # One to Many
 
+    def plays_xml_dataset(self):
+        plays = PlaysXMLDataset()
+        plays.id = self.id
+        plays.date = self.date
+        plays.quantity = self.quantity
+        plays.length = self.length
+        plays.incomplete = self.incomplete
+        plays.nowinstats = self.nowinstats
+        plays.location = self.location
+
+        plays.game_name = self.gamedataset.name
+        plays.gameid = self.gamedataset.id
+
+        for x in self.playersplaydataset:
+            plays.players.append(x.player_xml_dataset())
+
+        return plays
+
 
 class PlayersPlayDataset(db.Model):
     id = db.Column(db.Integer, unique=True, primary_key=True)
@@ -108,3 +103,8 @@ class PlayersPlayDataset(db.Model):
     new = db.Column(db.Boolean)
     rating = db.Column(db.String(40))
     won = db.Column(db.Boolean)
+
+    def player_xml_dataset(self):
+        return PlayerXMLDataset(username=self.playerdataset.username, userid=self.playerdataset.userid,
+                                name=self.playerdataset.name, startposition=self.startposition, colour=self.colour,
+                                score=self.score, new=self.new, rating=self.rating, won=self.won)
