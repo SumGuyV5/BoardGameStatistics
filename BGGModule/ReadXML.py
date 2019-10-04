@@ -14,8 +14,8 @@
 **		    see license.txt for for details	        **
 ***************************************************************"""
 import os
-from BGGModule.PlaysDataset import PlaysDataset
-from BGGModule.PlayerDataset import PlayerDataset
+from BGGModule.PlaysXMLDataset import PlaysXMLDataset
+from BGGModule.PlayerXMLDataset import PlayerXMLDataset
 from BGGModule.PlayerInfo import PlayerInfo
 from BGGModule.GameInfo import GameInfo
 from xml.dom.minidom import parse
@@ -53,7 +53,7 @@ class ReadXML:
 
     @staticmethod
     def _read_xml_plays(dom):
-        rtn = PlaysDataset()
+        rtn = PlaysXMLDataset()
         rtn.id = int(dom.attributes['id'].value)
         rtn.date = dom.attributes['date'].value
         rtn.quantity = int(dom.attributes['quantity'].value)
@@ -76,7 +76,7 @@ class ReadXML:
 
     @staticmethod
     def _load_players(player):
-        rtn = PlayerDataset()
+        rtn = PlayerXMLDataset()
         rtn.username = player.attributes['username'].value
         rtn.userid = int(player.attributes['userid'].value)
         rtn.name = player.attributes['name'].value

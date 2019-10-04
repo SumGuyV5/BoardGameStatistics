@@ -15,17 +15,41 @@
 ***************************************************************"""
 
 
-class PlayerDataset:
+class PlayerXMLDataset:
     def __init__(self):
         self.username = ""
         self.userid = 0
         self.name = ""
         self.startposition = 0
         self.colour = ""
-        self.score = 0
-        self.new = False
+        self.__score = float(0.0)
+        self.__new = False
         self.rating = 0
-        self.won = False
+        self.__won = False
+
+    @property
+    def score(self):
+        return self.__score
+
+    @score.setter
+    def score(self, val):
+        self.__score = float(val)
+
+    @property
+    def new(self):
+        return self.__new
+
+    @new.setter
+    def new(self, val):
+        self.__new = bool(val)
+
+    @property
+    def won(self):
+        return self.__won
+
+    @won.setter
+    def won(self, val):
+        self.__won = bool(val)
 
 
 if __name__ == "__main__":

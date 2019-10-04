@@ -24,6 +24,21 @@ class PlayerData:
         self.re_download = False
         self.count_to = BGGModule.Functions.play_count(self.username, self.pagesize)
 
+    def read(self, plays_dataset):
+        print(len(self.readXML.plays[100].players))
+        for play1, play2 in zip(self.readXML.plays, plays_dataset):
+            if len(play1.players) == len(play2.players):
+                #print('OK')
+                for player1, player2 in zip(play1.players, play2.players):
+                    if player1.score != player2.score:
+                        print('Error')
+            else:
+                print('Error')
+        self.readXML.plays = plays_dataset
+        print(len(self.readXML.plays[100].players))
+        self.__players_info = self.readXML.load_info(self.ignore)
+        return self.__players_info
+
     @property
     def players_info(self):
         # if BGGModule.Functions.new_download(6) or self.files_exists("plays", self.count_to) is False:

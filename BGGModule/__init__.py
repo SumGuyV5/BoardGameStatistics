@@ -12,4 +12,4 @@
 **  License:	    GNU GENERAL PUBLIC LICENSE Version 2	**
 **		    see license.txt for for details	        **
 ***************************************************************"""
-__all__ = ['DownloadXML', 'ReadXML', 'PlayerDataset', 'PlaysDataset', 'PlayerInfo', 'GameInfo', 'Functions']
+__all__ = ['DownloadXML', 'ReadXML', 'PlayerXMLDataset', 'PlaysXMLDataset', 'PlayerInfo', 'GameInfo', 'Functions']

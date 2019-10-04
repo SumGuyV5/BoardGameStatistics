@@ -1,9 +1,43 @@
 from app import db
+from BGGModule.PlaysXMLDataset import PlaysXMLDataset
+from BGGModule.PlayerXMLDataset import PlayerXMLDataset
 
 
 def rebuild_database():
     db.drop_all()
     db.create_all()
+
+
+def load_database():
+    rtn = []
+    all_datas = db.session.query(PlayDataset).all()
+    for data in all_datas:
+        plays = PlaysXMLDataset()
+        plays.id = data.id
+        plays.date = data.date
+        plays.quantity = data.quantity
+        plays.length = data.length
+        plays.incomplete = data.incomplete
+        plays.now_in_stats = data.nowinstats
+        plays.location = data.location
+
+        plays.game_name = data.gamedataset.name
+        plays.gameid = data.gamedataset.id
+
+        for playersplay in data.playersplaydataset:
+            players = PlayerXMLDataset()
+            players.username = playersplay.playerdataset.username
+            players.userid = playersplay.playerdataset.userid
+            players.name = playersplay.playerdataset.name
+            players.startposition = playersplay.startposition
+            players.colour = playersplay.colour
+            players.score = playersplay.score
+            players.new = playersplay.new
+            players.rating = playersplay.rating
+            players.won = playersplay.won
+            plays.players.append(players)
+        rtn.append(plays)
+    return rtn
 
 
 def load_data_into_database(plays):

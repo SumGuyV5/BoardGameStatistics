@@ -14,10 +14,10 @@
 **		    see license.txt for for details	        **
 ***************************************************************"""
 import datetime
-from BGGModule.PlayerDataset import PlayerDataset
+from BGGModule.PlayerXMLDataset import PlayerXMLDataset
 
 
-class PlaysDataset:
+class PlaysXMLDataset:
     def __init__(self):
         self.id = 0
         self._date = datetime.date.today()
@@ -69,7 +69,7 @@ class PlaysDataset:
         val = {}
 
         winners_count = self.winners_count()
-        self.players = sorted(self.players, key=lambda players: players.score, reverse=False)
+        self.players = sorted(self.players, key=lambda players: players.score, reverse=self.__lower_is_better__)
         for idx, player in enumerate(self.players):
             points = 0
             if player.score == 0:
@@ -88,25 +88,25 @@ class PlaysDataset:
 
 
 def one_winner():
-    plays_dataset = PlaysDataset()
+    plays_dataset = PlaysXMLDataset()
     plays_dataset.game_name = "Score Game"
 
-    player_w = PlayerDataset()
+    player_w = PlayerXMLDataset()
     player_w.name = "Winner"
     player_w.won = True
     player_w.score = 10
 
-    player1 = PlayerDataset()
+    player1 = PlayerXMLDataset()
     player1.name = "Player 1"
     player1.won = False
     player1.score = 9
 
-    player2 = PlayerDataset()
+    player2 = PlayerXMLDataset()
     player2.name = "Player 2"
     player2.won = False
     player2.score = 8
 
-    player3 = PlayerDataset()
+    player3 = PlayerXMLDataset()
     player3.name = "Player 3"
     player3.won = False
     player3.score = 1
@@ -120,25 +120,25 @@ def one_winner():
 
 
 def two_winners():
-    plays_dataset = PlaysDataset()
+    plays_dataset = PlaysXMLDataset()
     plays_dataset.game_name = "Score Game"
 
-    player_w = PlayerDataset()
+    player_w = PlayerXMLDataset()
     player_w.name = "Winner"
     player_w.won = True
     player_w.score = 10
 
-    player1 = PlayerDataset()
+    player1 = PlayerXMLDataset()
     player1.name = "Player 1"
     player1.won = True
     player1.score = 10
 
-    player2 = PlayerDataset()
+    player2 = PlayerXMLDataset()
     player2.name = "Player 2"
     player2.won = False
     player2.score = 8
 
-    player3 = PlayerDataset()
+    player3 = PlayerXMLDataset()
     player3.name = "Player 3"
     player3.won = False
     player3.score = 1
@@ -152,25 +152,25 @@ def two_winners():
 
 
 def second_place_tie():
-    plays_dataset = PlaysDataset()
+    plays_dataset = PlaysXMLDataset()
     plays_dataset.game_name = "Score Game"
 
-    player_w = PlayerDataset()
+    player_w = PlayerXMLDataset()
     player_w.name = "Winner"
     player_w.won = True
     player_w.score = 10
 
-    player1 = PlayerDataset()
+    player1 = PlayerXMLDataset()
     player1.name = "Player 1"
     player1.won = False
     player1.score = 8
 
-    player2 = PlayerDataset()
+    player2 = PlayerXMLDataset()
     player2.name = "Player 2"
     player2.won = False
     player2.score = 8
 
-    player3 = PlayerDataset()
+    player3 = PlayerXMLDataset()
     player3.name = "Player 3"
     player3.won = False
     player3.score = 1
@@ -184,22 +184,22 @@ def second_place_tie():
 
 
 def one_winner_no_score():
-    plays_dataset = PlaysDataset()
+    plays_dataset = PlaysXMLDataset()
     plays_dataset.game_name = "Score Game"
 
-    player_w = PlayerDataset()
+    player_w = PlayerXMLDataset()
     player_w.name = "Winner"
     player_w.won = True
 
-    player1 = PlayerDataset()
+    player1 = PlayerXMLDataset()
     player1.name = "Player 1"
     player1.won = False
 
-    player2 = PlayerDataset()
+    player2 = PlayerXMLDataset()
     player2.name = "Player 2"
     player2.won = False
 
-    player3 = PlayerDataset()
+    player3 = PlayerXMLDataset()
     player3.name = "Player 3"
     player3.won = False
 
@@ -211,23 +211,23 @@ def one_winner_no_score():
     return plays_dataset
 
 
-def two_winner_no_score():
-    plays_dataset = PlaysDataset()
+def two_winnerd_no_score():
+    plays_dataset = PlaysXMLDataset()
     plays_dataset.game_name = "Score Game"
 
-    player_w = PlayerDataset()
+    player_w = PlayerXMLDataset()
     player_w.name = "Winner"
     player_w.won = True
 
-    player1 = PlayerDataset()
+    player1 = PlayerXMLDataset()
     player1.name = "Player 1"
     player1.won = True
 
-    player2 = PlayerDataset()
+    player2 = PlayerXMLDataset()
     player2.name = "Player 2"
     player2.won = False
 
-    player3 = PlayerDataset()
+    player3 = PlayerXMLDataset()
     player3.name = "Player 3"
     player3.won = False
 
@@ -240,25 +240,25 @@ def two_winner_no_score():
 
 
 def one_winner_lower_is_better():
-    plays_dataset = PlaysDataset()
+    plays_dataset = PlaysXMLDataset()
     plays_dataset.game_name = "No Thanks!"
 
-    player_w = PlayerDataset()
+    player_w = PlayerXMLDataset()
     player_w.name = "Winner"
     player_w.won = True
     player_w.score = 1
 
-    player1 = PlayerDataset()
+    player1 = PlayerXMLDataset()
     player1.name = "Player 1"
     player1.won = False
     player1.score = 8
 
-    player2 = PlayerDataset()
+    player2 = PlayerXMLDataset()
     player2.name = "Player 2"
     player2.won = False
     player2.score = 9
 
-    player3 = PlayerDataset()
+    player3 = PlayerXMLDataset()
     player3.name = "Player 3"
     player3.won = False
     player3.score = 10
@@ -275,24 +275,30 @@ if __name__ == "__main__":
 
     tmp = one_winner()
 
+    print('One Winner')
     print(tmp.points())
 
     tmp = two_winners()
 
+    print('Two Winners')
     print(tmp.points())
 
     tmp = second_place_tie()
 
+    print('Second Place Tie')
     print(tmp.points())
 
     tmp = one_winner_no_score()
 
+    print('One Winner No Score')
     print(tmp.points())
 
-    tmp = two_winner_no_score()
+    tmp = two_winnerd_no_score()
 
+    print('Two Winners No Score')
     print(tmp.points())
 
-    tmp = one_winner_no_score()
+    tmp = one_winner_lower_is_better()
 
+    print('One Winner Lower is Better')
     print(tmp.points())
