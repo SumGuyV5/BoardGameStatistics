@@ -72,17 +72,9 @@ class PlayDataset(db.Model):
                                          backref=db.backref('play_dataset', lazy=True))  # One to Many
 
     def plays_xml_dataset(self):
-        plays = PlaysXMLDataset()
-        plays.id = self.id
-        plays.date = self.date
-        plays.quantity = self.quantity
-        plays.length = self.length
-        plays.incomplete = self.incomplete
-        plays.nowinstats = self.nowinstats
-        plays.location = self.location
-
-        plays.game_name = self.gamedataset.name
-        plays.gameid = self.gamedataset.id
+        plays = PlaysXMLDataset(id=self.id, date=self.date, quantity=self.quantity, length=self.length,
+                                incomplete=self.incomplete, nowinstats=self.nowinstats, location=self.location,
+                                game_name=self.gamedataset.name, gameid=self.gamedataset.id)
 
         for x in self.playersplaydataset:
             plays.players.append(x.player_xml_dataset())
