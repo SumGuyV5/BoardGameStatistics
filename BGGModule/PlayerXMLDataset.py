@@ -16,16 +16,17 @@
 
 
 class PlayerXMLDataset:
-    def __init__(self):
-        self.username = ""
-        self.userid = 0
-        self.name = ""
-        self.startposition = 0
-        self.colour = ""
-        self.__score = float(0.0)
-        self.__new = False
-        self.rating = 0
-        self.__won = False
+    def __init__(self, username="", userid="", name="", startposition=0, colour="", score=0, new=False, rating=0,
+                 won=False):
+        self.username = username
+        self.userid = userid
+        self.name = name
+        self.startposition = startposition
+        self.colour = colour
+        self.score = score
+        self.new = new
+        self.rating = rating
+        self.won = won
 
     @property
     def score(self):
