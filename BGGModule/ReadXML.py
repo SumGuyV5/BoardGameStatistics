@@ -42,7 +42,7 @@ class ReadXML:
             self._read_xml_players(play_tag, plays_dataset)
             self.plays.append(plays_dataset)
 
-        self.plays = [i for i in self.plays if (i.incomplete == 0) and (i.now_in_stats == 0)]
+        self.plays = [i for i in self.plays if (i.incomplete == 0) and (i.nowinstats == 0)]
 
     def read_xml_all(self, filename, count_to):
         """Filename only no extension."""
@@ -59,7 +59,7 @@ class ReadXML:
         rtn.quantity = int(dom.attributes['quantity'].value)
         rtn.length = int(dom.attributes['length'].value)
         rtn.incomplete = bool(int(dom.attributes['incomplete'].value))
-        rtn.now_in_stats = int(dom.attributes['nowinstats'].value)
+        rtn.nowinstats = int(dom.attributes['nowinstats'].value)
         rtn.location = dom.attributes['location'].value
 
         items = dom.getElementsByTagName("item")

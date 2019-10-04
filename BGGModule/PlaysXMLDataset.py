@@ -18,30 +18,41 @@ from BGGModule.PlayerXMLDataset import PlayerXMLDataset
 
 
 class PlaysXMLDataset:
-    def __init__(self):
-        self.id = 0
-        self._date = datetime.date.today()
-        self.quantity = 1
-        self.length = 0
-        self.incomplete = 0
-        self.now_in_stats = 0
-        self.location = ""
-
-        self._game_name = ""
-        self.gameid = 0
-
+    def __init__(self, id=0, date=datetime.date.today(), quantity=1, length=0, incomplete=0, nowinstats=0, location="",
+                 game_name="", gameid=0):
         self.__lower_is_better__ = False
-
         self.players = []
+
+        self.id = id
+        self.date = date
+        self.quantity = quantity
+        self.length = length
+        self.incomplete = incomplete
+        self.nowinstats = nowinstats
+        self.location = location
+
+        self.game_name = game_name
+        self.gameid = gameid
+
+    @property
+    def date(self):
+        return self.__date
+
+    @date.setter
+    def date(self, val):
+        if type(val) is str:
+            self.__date = datetime.datetime.strptime(val, "%Y-%m-%d")
+        else:
+            self.__date = val
 
     @property
     def game_name(self):
-        return self._game_name
+        return self.__game_name
 
     @game_name.setter
     def game_name(self, value):
         lower_lst = ['No Thanks!']
-        self._game_name = value
+        self.__game_name = value
         for lower in lower_lst:
             if value == lower:
                 self.__lower_is_better__ = True
@@ -55,8 +66,6 @@ class PlaysXMLDataset:
                 return idx
         return -1
 
-    def date(self, string):
-        self._date = datetime.datetime.strptime(string, "%Y-%m-%d")
 
     def winners_count(self):
         val = 0
@@ -211,7 +220,7 @@ def one_winner_no_score():
     return plays_dataset
 
 
-def two_winnerd_no_score():
+def two_winners_no_score():
     plays_dataset = PlaysXMLDataset()
     plays_dataset.game_name = "Score Game"
 
@@ -293,7 +302,7 @@ if __name__ == "__main__":
     print('One Winner No Score')
     print(tmp.points())
 
-    tmp = two_winnerd_no_score()
+    tmp = two_winners_no_score()
 
     print('Two Winners No Score')
     print(tmp.points())

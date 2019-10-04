@@ -18,7 +18,7 @@ def load_database():
         plays.quantity = data.quantity
         plays.length = data.length
         plays.incomplete = data.incomplete
-        plays.now_in_stats = data.nowinstats
+        plays.nowinstats = data.nowinstats
         plays.location = data.location
 
         plays.game_name = data.gamedataset.name
@@ -45,7 +45,7 @@ def load_data_into_database(plays):
     player_pass = {}
     for play in plays:
         playdataset = PlayDataset(id=play.id, date=play.date, quantity=play.quantity, length=play.length,
-                                  incomplete=play.incomplete, nowinstats=play.now_in_stats, location=play.location)
+                                  incomplete=play.incomplete, nowinstats=play.nowinstats, location=play.location)
 
         for player in play.players:
             if player.name not in player_pass:
