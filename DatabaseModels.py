@@ -1,27 +1,6 @@
-import operator
 from app import db
 from BGGModule.PlaysXMLDataset import PlaysXMLDataset
 from BGGModule.PlayerXMLDataset import PlayerXMLDataset
-
-
-def rebuild_database():
-    db.drop_all()
-    db.create_all()
-
-
-def load_database():
-    rtn = []
-    query_data = db.session.query(PlayDataset).all()
-    for data in query_data:
-        rtn.append(data.xml)
-    return rtn
-
-
-def load_data_into_database(plays):
-    for play in plays:
-        playdataset = PlayDataset(xml=play)
-        db.session.add(playdataset)
-        db.session.commit()
 
 
 class GameDataset(db.Model):
