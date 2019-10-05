@@ -31,20 +31,20 @@ def fullflush():
     fully deletes the database and rereads the xml files and enters them into the database
     :return:
     """
-    from DatabaseInteractions import rebuild_database, load_data_into_database
+    from DatabaseInteractions import rebuild_database, load_xml_into_database
     rebuild_database()
-    load_data_into_database(player_data.readXML.plays)
+    load_xml_into_database(player_data.readXML.plays)
     return render_template('index.html')
 
 
 @app.route('/')
 def index():
-    from DatabaseInteractions import load_database
+    from DatabaseInteractions import load_database_into_xml
     current_feature_name = request.args.get("feature_name")
     if current_feature_name is None:
         current_feature_name = feature_names[0]
 
-    script, div = build_graph(current_feature_name, player_data.read(load_database()))
+    script, div = build_graph(current_feature_name, player_data.read(load_database_into_xml()))
 
     return render_template('index.html', script=script, div=div, feature_names=feature_names,
                            current_feature_name=current_feature_name)
