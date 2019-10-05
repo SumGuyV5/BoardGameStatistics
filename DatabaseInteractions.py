@@ -13,8 +13,8 @@ def update_database(play):
 def update_data(plays):
     lates_play = PlayDataset.query.order_by(PlayDataset.date.desc()).limit(1).all()
     for play in plays:
-
         PlayDataset.query.filter_py(id=play.id).first()
+
 
 def rebuild_database():
     """

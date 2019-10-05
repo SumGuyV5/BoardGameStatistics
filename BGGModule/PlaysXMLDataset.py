@@ -66,7 +66,6 @@ class PlaysXMLDataset:
                 return idx
         return -1
 
-
     def winners_count(self):
         val = 0
         for player in self.players:

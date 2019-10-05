@@ -19,9 +19,11 @@ player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
 
+
 @app.route('/xmldownload')
 def xmldownload():
     return render_template('index.html')
+
 
 @app.route('/fullflush')
 def fullflush():

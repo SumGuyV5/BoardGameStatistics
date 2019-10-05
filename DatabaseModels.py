@@ -46,6 +46,7 @@ class PlayDataset(db.Model):
     gamedataset = db.relationship('GameDataset', backref=db.backref('play_dataset', lazy=True))  # One to One
     playersplaydataset = db.relationship('PlayersPlayDataset',
                                          backref=db.backref('play_dataset', lazy=True))  # One to Many
+
     @property
     def xml(self):
         plays = PlaysXMLDataset(id=self.id, date=self.date, quantity=self.quantity, length=self.length,
@@ -71,7 +72,6 @@ class PlayDataset(db.Model):
             self.gamedataset = GameDataset(xml=val)
         for player in val.players:
             self.playersplaydataset.append(PlayersPlayDataset(xml=player))
-
 
 
 class PlayersPlayDataset(db.Model):
