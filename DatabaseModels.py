@@ -9,7 +9,7 @@ class GameDataset(db.Model):
 
     @property
     def xml(self):
-        return PlaysXMLDataset(id=self.id, name=self.name)
+        return PlaysXMLDataset(id=self.id, game_name=self.name)
 
     @xml.setter
     def xml(self, val):

@@ -22,15 +22,18 @@ def update_database_check(play):
     else:
         return False
 
+
 def update_records(plays):
     for play in plays:
         update_record(play)
+
 
 def update_record(play):
     data = PlayDataset.query.filter_py(id=play.id).first()
     if data is not None:
         data.xml = play
         db.session.commit()
+
 
 def add_records(plays):
     """

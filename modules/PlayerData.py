@@ -54,3 +54,11 @@ class PlayerData:
         self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)
         self.__players_info = self.readXML.load_info(self.ignore)
 
+    def update(self):
+        url = self.url.replace('pagesize=100', 'pagesize=10')
+
+        download = DownloadXML(url, 'update.xml')
+        download.download()
+        read = ReadXML()
+        read.read_xml_file('update.xml')
+

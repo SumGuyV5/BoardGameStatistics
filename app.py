@@ -20,8 +20,9 @@ player_data = PlayerData()
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
 
 
-@app.route('/xmldownload')
-def xmldownload():
+@app.route('/fullxmldownload')
+def fullxmldownload():
+    player_data.force_refresh()
     return render_template('index.html')
 
 
@@ -37,8 +38,14 @@ def fullflush():
     return render_template('index.html')
 
 
+@app.route('/update')
+def update():
+    return render_template('index.html')
+
+
 @app.route('/')
 def index():
+
     from DatabaseInteractions import load_database_into_xml
     current_feature_name = request.args.get("feature_name")
     if current_feature_name is None:
