@@ -34,7 +34,8 @@ def fullflush():
     """
     from DatabaseInteractions import rebuild_database, load_xml_into_database
     rebuild_database()
-    load_xml_into_database(player_data.readXML.plays)
+
+    load_xml_into_database(player_data.read_all())
     return render_template('index.html')
 
 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><plays username="SumGuyV5" userid="508171" total="1199" page="1" termsofuse="https://boardgamegeek.com/xmlapi/termsofuse">
+<play id="38023491" date="2019-09-29" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Asking for Trobils" objecttype="thing" objectid="156442">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="32" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="30" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="41" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Arden" startposition="4" color="" score="35" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Shelly" startposition="5" color="" score="29" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Alex" startposition="6" color="" score="32" new="0" rating="0" win="0" />
+						</players>
+					</play>
+	<play id="38021178" date="2019-09-29" quantity="1" length="0" incomplete="0" nowinstats="0" location="">
+			<item name="Coup" objecttype="thing" objectid="131357">
+				<subtypes>
+										<subtype value="boardgame" />
+									</subtypes>
+			</item>
+									<players>
+									<player username="SumGuyV5" userid="508171" name="Richard Allen" startposition="1" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Jeff" startposition="2" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Tanya" startposition="3" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Damon" startposition="4" color="" score="" new="0" rating="0" win="0" />
+						<player username="" userid="0" name="Arden" startposition="5" color="" score="" new="0" rating="0" win="1" />
+						<player username="" userid="0" name="Shelly" startposition="6" color="" score="" new="0" rating="0" win="0" />
+						</players>
+					</play>
+    </plays>

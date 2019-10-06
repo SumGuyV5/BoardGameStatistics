@@ -17,48 +17,34 @@ class PlayerData:
             f'&pagesize={str(self.pagesize)}&page='
         self.filename = "plays.xml"
 
-        self.__players_info = []
-
         self.downloadXML = DownloadXML(self.url, self.filename)
         self.readXML = ReadXML()
         self.re_download = False
-        self.count_to = BGGModule.Functions.play_count(self.username, self.pagesize)
+        self.count_to = BGGModule.Functions.count_to(self.username, self.pagesize)
 
-    def read(self, plays_dataset):
-        self.readXML.plays = plays_dataset
-        self.__players_info = self.readXML.load_info(self.ignore)
-        return self.__players_info
-
-    @property
-    def players_info(self):
-        # if BGGModule.Functions.new_download(6) or self.files_exists("plays", self.count_to) is False:
-        #    self.count_to = BGGModule.Functions.play_count(self.username, self.pagesize)
-        #    self.downloadXML.download_all(self.url, "plays", self.count_to)
-        if not self.__players_info:
-            self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)
-            self.__players_info = self.readXML.load_info(self.ignore)
-        return self.__players_info
-
-    @staticmethod
-    def files_exists(filename, count_to):
-        path = os.path.join(os.getcwd(), filename)
-        for i in range(1, count_to + 1):
-            if os.path.isfile(f'{path}{i}.xml') is False:
-                return False
-        return True
+    def read(self, plays):
+        return BGGModule.Functions.load_info(self.ignore, plays)
 
     def force_refresh(self):
-        self.count_to = BGGModule.Functions.play_count(self.username, self.pagesize)
+        self.count_to = BGGModule.Functions.count_to(self.username, self.pagesize)
         self.downloadXML.download_all(self.url, "plays", self.count_to)
 
-        self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)
-        self.__players_info = self.readXML.load_info(self.ignore)
+        return self.read_all()
 
-    def update(self):
+    def read_all(self):
+        self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)
+        return self.readXML.plays
+
+    def update(self, num_plays):
         url = self.url.replace('pagesize=100', 'pagesize=10')
 
         download = DownloadXML(url, 'update.xml')
         download.download()
         read = ReadXML()
         read.read_xml_file('update.xml')
+        if read.play_count > num_plays:
+            how_many = read.play_count - num_plays
+            if how_many > 10:
+                url = self.url.replace('pagesize=10', f'pagesize={how_many}')
+
 
