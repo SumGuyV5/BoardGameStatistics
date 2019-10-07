@@ -1,1 +1,1 @@
-__all__ = [ 'test_ReadXML' ]
+__all__ = ['test_ReadXML']

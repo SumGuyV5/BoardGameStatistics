@@ -71,7 +71,8 @@ def load_info(ignore, plays):
         for player in single_play.players:
             if player.name in ignore:
                 continue
-            add_player(player.username, player.name, player.win, single_play.game_name, players_points[player.name], players_info)
+            add_player(player.username, player.name, player.win, single_play.game_name, players_points[player.name],
+                       players_info)
     return players_info
 
 

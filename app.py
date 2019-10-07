@@ -3,9 +3,6 @@ from flask_sqlalchemy import SQLAlchemy
 from modules.GraphBuilder import build_graph, build_graph2
 from modules.PlayerData import PlayerData
 
-
-
-
 db_user = 'BoardGameStat'
 db_password = 'B0@rdG@m39'
 db_url = 'localhost'
@@ -20,6 +17,7 @@ db = SQLAlchemy(app)
 player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
+
 
 @app.route('/test')
 def test():

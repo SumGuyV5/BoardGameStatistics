@@ -13,9 +13,9 @@ class ReadXMLTests(unittest.TestCase):
     attr2 = ['username', 'userid', 'name', 'startposition', 'colour', 'score', 'new', 'rating', 'won']
 
     xml_data = [PlaysXMLDataset(id=38023491, date="2019-09-29", quantity=1, length=0, incomplete=0, nowinstats=0,
-                                 location="", game_name="Asking for Trobils", gameid=156442),
-                 PlaysXMLDataset(id=38021178, date="2019-09-29", quantity=1, length=0, incomplete=0, nowinstats=0,
-                                 location="", game_name="Coup", gameid=131357)]
+                                location="", game_name="Asking for Trobils", gameid=156442),
+                PlaysXMLDataset(id=38021178, date="2019-09-29", quantity=1, length=0, incomplete=0, nowinstats=0,
+                                location="", game_name="Coup", gameid=131357)]
 
     xml_data[0].players = [
         PlayerXMLDataset(username="SumGuyV5", userid=508171, name="Richard Allen", startposition=1, colour="",
@@ -55,7 +55,6 @@ class ReadXMLTests(unittest.TestCase):
                     play_fun2 = operator.attrgetter(y)
                     for player_one, player_two in zip(play_one.players, play_two.players):
                         self.assertEqual(play_fun2(player_one), play_fun2(player_two))
-
 
 
 if __name__ == "__main__":

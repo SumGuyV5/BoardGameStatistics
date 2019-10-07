@@ -13,11 +13,8 @@
 **  License:	    GNU GENERAL PUBLIC LICENSE Version 2	**
 **		    see license.txt for for details	        **
 ***************************************************************"""
-import os
 from BGGModule.PlaysXMLDataset import PlaysXMLDataset
 from BGGModule.PlayerXMLDataset import PlayerXMLDataset
-from BGGModule.PlayerInfo import PlayerInfo
-from BGGModule.GameInfo import GameInfo
 from xml.dom.minidom import parse
 
 

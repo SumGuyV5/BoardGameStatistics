@@ -7,8 +7,9 @@ import operator
 import bokeh
 
 ignore = ['Keith', 'Paul', 'Dempsey', 'Other', 'Kelly', 'Alyssa', 'Player 6', 'Mark', 'Player 7',
-                       'Beulah', 'Besa', 'Player 5', 'Raymon', 'Play 2', 'Jay', 'Play 6', 'Play 5', 'Play 4', 'Play 3',
-                       'Anthony', 'Bill']
+          'Beulah', 'Besa', 'Player 5', 'Raymon', 'Play 2', 'Jay', 'Play 6', 'Play 5', 'Play 4', 'Play 3',
+          'Anthony', 'Bill']
+
 
 def build_graph(feature_name, players_info):
     # ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
@@ -68,9 +69,10 @@ def build_graph(feature_name, players_info):
 def build_graph2(feature_name):
     from DatabaseProcessing import win_percentage, h_index, total_games, win_count, loss_count, total_points
     # ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
+    players_info = {}
     if feature_name == 'Win Percentage':
         players_info = win_percentage(ignore)
-    elif feature_name == 'H-Index':
+    if feature_name == 'H-Index':
         players_info = h_index(ignore)
     elif feature_name == 'Total Games Played':
         players_info = total_games(ignore)
@@ -81,7 +83,7 @@ def build_graph2(feature_name):
     elif feature_name == 'Total Points':
         players_info = total_points(ignore)
     elif feature_name == 'Points Per Game':
-        attr = 'points_per_game'
+        players_info = 'points_per_game'
 
     title = f'Players {feature_name}'
     # players_info = sorted(players_info.items(), key=lambda item: (item[1], item[0]), reverse=True)
