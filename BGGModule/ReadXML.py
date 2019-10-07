@@ -91,7 +91,7 @@ class ReadXML:
             pass
         rtn.new = bool(int(player.attributes['new'].value))
         rtn.rating = int(player.attributes['rating'].value)
-        rtn.won = bool(int(player.attributes['win'].value))
+        rtn.win = bool(int(player.attributes['win'].value))
 
         return rtn
 

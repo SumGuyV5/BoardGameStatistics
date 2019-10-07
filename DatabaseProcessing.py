@@ -81,11 +81,11 @@ def total_games_processing(data, players_play):
 
 
 def win_count_processing(data, players_play):
-    if players_play.won:
+    if players_play.win:
         data[players_play.playerdataset.name][0] += 1
 
 def loss_count_processing(data, players_play):
-    if players_play.won is False:
+    if players_play.win is False:
         data[players_play.playerdataset.name][1] += 1
 
 def total_points_processing(data, players_play):
@@ -96,9 +96,9 @@ def total_points_processing(data, players_play):
     for idx, player in enumerate(self.players):
         points = 0
         if player.score == 0:
-            if player.won:
+            if player.win:
                 points = len(self.players) - winners_count
-        elif player.won:
+        elif player.win:
             points = len(self.players) - winners_count
         else:
             points = idx

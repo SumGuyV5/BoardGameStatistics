@@ -17,7 +17,7 @@
 
 class PlayerXMLDataset:
     def __init__(self, username="", userid="", name="", startposition=0, colour="", score=0, new=False, rating=0,
-                 won=False):
+                 win=False):
         self.username = username
         self.userid = userid
         self.name = name
@@ -26,7 +26,7 @@ class PlayerXMLDataset:
         self.score = score
         self.new = new
         self.rating = rating
-        self.won = won
+        self.win = win
 
     @property
     def score(self):
@@ -45,12 +45,12 @@ class PlayerXMLDataset:
         self.__new = bool(val)
 
     @property
-    def won(self):
-        return self.__won
+    def win(self):
+        return self.__win
 
-    @won.setter
-    def won(self, val):
-        self.__won = bool(val)
+    @win.setter
+    def win(self, val):
+        self.__win = bool(val)
 
 
 if __name__ == "__main__":

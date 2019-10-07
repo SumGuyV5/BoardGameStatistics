@@ -92,7 +92,7 @@ class PlayersPlayDataset(db.Model):
     def xml(self):
         return PlayerXMLDataset(username=self.playerdataset.username, userid=self.playerdataset.userid,
                                 name=self.playerdataset.name, startposition=self.startposition, colour=self.colour,
-                                score=self.score, new=self.new, rating=self.rating, won=self.won)
+                                score=self.score, new=self.new, rating=self.rating, win=self.won)
 
     @xml.setter
     def xml(self, val):
@@ -101,7 +101,7 @@ class PlayersPlayDataset(db.Model):
         self.score = val.score
         self.new = val.new
         self.rating = val.rating
-        self.won = val.won
+        self.won = val.win
         self.playerdataset = PlayerDataset.query.filter_by(name=val.name).first()
         if self.playerdataset is None:
             self.playerdataset = PlayerDataset(xml=val)
