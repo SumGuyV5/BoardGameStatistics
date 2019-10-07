@@ -64,7 +64,7 @@ def new_download(day_diff=1):
 def load_info(ignore, plays):
     players_info = []
     for single_play in plays:
-        if single_play.incomplete is True:
+        if single_play.incomplete is True or single_play.nowinstats is True:
             print(single_play.id)
             continue
         players_points = single_play.points()

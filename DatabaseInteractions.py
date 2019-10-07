@@ -4,7 +4,7 @@ from DatabaseModels import db
 
 def rebuild_database():
     """
-    drops all current tables in the database and creates all the new tables.
+    Drops all current tables in the database and creates all the new tables.
     :return:
     """
     db.drop_all()
@@ -24,11 +24,21 @@ def update_database_check(play):
 
 
 def update_records(plays):
+    """
+    Update a list of play records.
+    :param plays: The list of play records to update.
+    :return:
+    """
     for play in plays:
         update_record(play)
 
 
 def update_record(play):
+    """
+    Updates the provide play record.
+    :param play: The play record to update.
+    :return:
+    """
     data = PlayDataset.query.filter_py(id=play.id).first()
     if data is not None:
         data.xml = play
@@ -48,7 +58,7 @@ def add_records(plays):
 
 def add_record(play):
     """
-    creates adds, and commits the record.
+    Creates adds, and commits the record.
     :param play:
     :return:
     """
@@ -58,7 +68,7 @@ def add_record(play):
 
 def load_database_into_xml():
     """
-    loads all the data in the database into a list of PlaysXMLDataset.
+    Loads all the data in the database into a list of PlaysXMLDataset.
     :return: a list of PlaysXMLDataset.
     """
     rtn = []

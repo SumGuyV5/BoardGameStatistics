@@ -1,7 +1,9 @@
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
-from modules.GraphBuilder import build_graph
+from modules.GraphBuilder import build_graph, build_graph2
 from modules.PlayerData import PlayerData
+
+
 
 
 db_user = 'BoardGameStat'
@@ -18,6 +20,17 @@ db = SQLAlchemy(app)
 player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
+
+@app.route('/test')
+def test():
+    current_feature_name = request.args.get("feature_name")
+    if current_feature_name is None:
+        current_feature_name = feature_names[0]
+
+    script, div = build_graph2(current_feature_name)
+
+    return render_template('index.html', script=script, div=div, feature_names=feature_names,
+                           current_feature_name=current_feature_name)
 
 
 @app.route('/fullxmldownload')
