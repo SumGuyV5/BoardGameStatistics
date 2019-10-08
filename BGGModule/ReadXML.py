@@ -83,7 +83,7 @@ class ReadXML:
             pass
         rtn.colour = player.attributes['color'].value
         try:
-            rtn.score = int(player.attributes['score'].value)
+            rtn.score = float(player.attributes['score'].value)
         except ValueError:
             pass
         rtn.new = bool(int(player.attributes['new'].value))

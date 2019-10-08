@@ -71,17 +71,17 @@ def build_graph2(feature_name):
     # ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
     players_info = {}
     if feature_name == 'Win Percentage':
-        players_info = win_percentage(ignore)
+        players_info = win_percentage()
     if feature_name == 'H-Index':
-        players_info = h_index(ignore)
+        players_info = h_index()
     elif feature_name == 'Total Games Played':
-        players_info = total_games(ignore)
+        players_info = total_games()
     elif feature_name == 'Wins':
-        players_info = win_count(ignore)
+        players_info = win_count()
     elif feature_name == 'Loss':
-        players_info = loss_count(ignore)
+        players_info = loss_count()
     elif feature_name == 'Total Points':
-        players_info = total_points(ignore)
+        players_info = total_points()
     elif feature_name == 'Points Per Game':
         players_info = 'points_per_game'
 

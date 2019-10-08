@@ -10,7 +10,7 @@ class ReadXMLTests(unittest.TestCase):
     readxml = ReadXML()
 
     attr1 = ['id', 'date', 'quantity', 'length', 'incomplete', 'nowinstats', 'location', 'game_name', 'gameid']
-    attr2 = ['username', 'userid', 'name', 'startposition', 'colour', 'score', 'new', 'rating', 'won']
+    attr2 = ['username', 'userid', 'name', 'startposition', 'colour', 'score', 'new', 'rating', 'win']
 
     xml_data = [PlaysXMLDataset(id=38023491, date="2019-09-29", quantity=1, length=0, incomplete=0, nowinstats=0,
                                 location="", game_name="Asking for Trobils", gameid=156442),
@@ -23,7 +23,7 @@ class ReadXMLTests(unittest.TestCase):
         PlayerXMLDataset(username="", userid=0, name="Jeff", startposition=2, colour="",
                          score=30, new=False, rating=0, win=False),
         PlayerXMLDataset(username="", userid=0, name="Tanya", startposition=3, colour="",
-                         score=41, new=False, rating=0, win=True),
+                         score=41.1, new=False, rating=0, win=True),
         PlayerXMLDataset(username="", userid=0, name="Arden", startposition=4, colour="",
                          score=35, new=False, rating=0, win=False),
         PlayerXMLDataset(username="", userid=0, name="Shelly", startposition=5, colour="",
