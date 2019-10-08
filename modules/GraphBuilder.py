@@ -67,7 +67,8 @@ def build_graph(feature_name, players_info):
 
 
 def build_graph2(feature_name):
-    from DatabaseProcessing import win_percentage, h_index, total_games, win_count, loss_count, total_points
+    from DatabaseProcessing import win_percentage, h_index, total_games, win_count, loss_count, total_points, \
+        points_per_game
     # ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
     players_info = {}
     if feature_name == 'Win Percentage':
@@ -83,7 +84,7 @@ def build_graph2(feature_name):
     elif feature_name == 'Total Points':
         players_info = total_points()
     elif feature_name == 'Points Per Game':
-        players_info = 'points_per_game'
+        players_info = points_per_game()
 
     title = f'Players {feature_name}'
     # players_info = sorted(players_info.items(), key=lambda item: (item[1], item[0]), reverse=True)

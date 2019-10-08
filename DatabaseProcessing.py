@@ -48,6 +48,16 @@ def total_points():
     return total_points_processing()
 
 
+def points_per_game():
+    val = {}
+    total_gs = total_games()
+    total_ps = total_points()
+
+    for key, value in total_gs.items():
+        val[key] = round(float(total_ps[key] / value), 2)
+    return val
+
+
 def processing(func):
     data = {}
     plays = db.session.query(PlayDataset).all()

@@ -96,7 +96,7 @@ class PlayerInfo:
 
     @property
     def points_per_game(self):
-        return round(self.points / len(self.__games_info), 2)
+        return round(self.points / float(self.total_games), 2)
 
     @property
     def total_games(self):
