@@ -107,12 +107,12 @@ def total_games_processing(data, players_play):
 
 
 def win_count_processing(data, players_play):
-    if players_play.win:
+    if players_play.won:
         data[players_play.playerdataset.name][0] += 1
 
 
 def loss_count_processing(data, players_play):
-    if players_play.win is False:
+    if players_play.won is False:
         data[players_play.playerdataset.name][1] += 1
 
 

@@ -1,3 +1,4 @@
+import time
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from modules.GraphBuilder import build_graph, build_graph2
@@ -25,7 +26,9 @@ def test():
     if current_feature_name is None:
         current_feature_name = feature_names[0]
 
+    start_time = time.time()
     script, div = build_graph2(current_feature_name)
+    print(f"{current_feature_name} took. {time.time() - start_time} to run")
 
     return render_template('index.html', script=script, div=div, feature_names=feature_names,
                            current_feature_name=current_feature_name)
@@ -47,6 +50,7 @@ def fullflush():
     rebuild_database()
 
     load_xml_into_database(player_data.read_all())
+
     return render_template('index.html')
 
 
@@ -63,7 +67,9 @@ def index():
     if current_feature_name is None:
         current_feature_name = feature_names[0]
 
-    script, div = build_graph(current_feature_name, player_data.read(load_database_into_xml()))
+    start_time = time.time()
+    script, div = build_graph(current_feature_name)
+    print(f"{current_feature_name} took. {time.time() - start_time} to run")
 
     return render_template('index.html', script=script, div=div, feature_names=feature_names,
                            current_feature_name=current_feature_name)
