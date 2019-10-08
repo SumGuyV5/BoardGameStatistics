@@ -1,13 +1,12 @@
 from DatabaseModels import PlayDataset
 from DatabaseModels import PlayerDataset
 from DatabaseModels import PlayersPlayDataset
-from DatabaseModels import GameDataset
 from app import db
 
-from sqlalchemy import and_
 
 players = ['Tanya', 'Richard Allen', 'Damon', 'Jeff', 'Terry', 'Arden', 'Charlene', 'Julie', 'Alex', 'Tim',
-               'Dimetre', 'Shelly']
+           'Dimetre', 'Shelly']
+
 
 def win_percentage():
     val = {}
@@ -46,9 +45,7 @@ def loss_count():
 
 
 def total_points():
-
     return total_points_processing()
-
 
 
 def processing(func):
@@ -62,7 +59,6 @@ def processing(func):
                 if players_play.playerdataset.name not in data.keys():
                     data[players_play.playerdataset.name] = [0, 0]
                 func(data, players_play)
-
     return data
 
 
@@ -111,7 +107,7 @@ def loss_count_processing(data, players_play):
 
 
 def total_points_processing():
-    val = {el:0 for el in players}
+    val = {el: 0 for el in players}
     query = db.session.query(PlayDataset) \
         .join(PlayDataset.playersplaydataset) \
         .join(PlayDataset.gamedataset) \
@@ -130,7 +126,8 @@ def total_points_processing():
         reverse = False
         if play.gamedataset.name == 'No Thanks!':
             reverse = True
-        players_sort = sorted(play.playersplaydataset, key=lambda playersplaydataset: playersplaydataset.score, reverse=reverse)
+        players_sort = sorted(play.playersplaydataset, key=lambda playersplaydataset: playersplaydataset.score,
+                              reverse=reverse)
         for idx, players_play in enumerate(players_sort):
             player_name = players_play.playerdataset.name
             points = 0
