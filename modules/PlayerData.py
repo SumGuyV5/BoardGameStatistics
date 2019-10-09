@@ -51,6 +51,3 @@ class PlayerData:
             add_records(read.plays)
 
         return val
-
-
-

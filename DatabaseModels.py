@@ -86,13 +86,13 @@ class PlayersPlayDataset(db.Model):
     score = db.Column(db.Float)
     new = db.Column(db.Boolean)
     rating = db.Column(db.String(40))
-    won = db.Column(db.Boolean)
+    win = db.Column(db.Boolean)
 
     @property
     def xml(self):
         return PlayerXMLDataset(username=self.playerdataset.username, userid=self.playerdataset.userid,
                                 name=self.playerdataset.name, startposition=self.startposition, colour=self.colour,
-                                score=float(self.score), new=self.new, rating=self.rating, win=self.won)
+                                score=float(self.score), new=self.new, rating=self.rating, win=self.win)
 
     @xml.setter
     def xml(self, val):
@@ -101,7 +101,7 @@ class PlayersPlayDataset(db.Model):
         self.score = float(val.score)
         self.new = val.new
         self.rating = val.rating
-        self.won = val.win
+        self.win = val.win
         self.playerdataset = PlayerDataset.query.filter_by(name=val.name).first()
         if self.playerdataset is None:
             self.playerdataset = PlayerDataset(xml=val)

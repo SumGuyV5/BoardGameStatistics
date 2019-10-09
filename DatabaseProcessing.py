@@ -107,12 +107,12 @@ def total_games_processing(data, players_play):
 
 
 def win_count_processing(data, players_play):
-    if players_play.won:
+    if players_play.win:
         data[players_play.playerdataset.name][0] += 1
 
 
 def loss_count_processing(data, players_play):
-    if players_play.won is False:
+    if players_play.win is False:
         data[players_play.playerdataset.name][1] += 1
 
 
@@ -131,10 +131,11 @@ def total_points_processing():
             continue
         winners_count = 0
         for players_play in play.playersplaydataset:
-            if players_play.won:
+            if players_play.win:
                 winners_count += 1
         reverse = False
-        if play.gamedataset.name == 'No Thanks!':
+        lower_lst = ['No Thanks!']
+        if play.gamedataset.name in lower_lst:
             reverse = True
         players_sort = sorted(play.playersplaydataset, key=lambda playersplaydataset: playersplaydataset.score,
                               reverse=reverse)
@@ -142,15 +143,14 @@ def total_points_processing():
             player_name = players_play.playerdataset.name
             points = 0
             if players_play.score == 0:
-                if players_play.won:
+                if players_play.win:
                     points = len(players_sort) - winners_count
-            elif players_play.won:
+            elif players_play.win:
                 points = len(players_sort) - winners_count
             else:
                 points = idx
                 if idx > 0 and players_sort[idx - 1].score == players_play.score:
                     _, points = list(tmp.items())[-1]
-
             tmp[player_name] = points
             if player_name in players:
                 val[player_name] += points
