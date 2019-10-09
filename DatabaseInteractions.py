@@ -88,8 +88,9 @@ def load_xml_into_database(plays):
     :param plays: list of PlaysXMLDataset.
     :return: None
     """
-    for play in plays:
-        db.session.add(PlayDataset(xml=play))
-    db.session.commit()
+    add_records(plays)
+    #for play in plays:
+    #    db.session.add(PlayDataset(xml=play))
+    #db.session.commit()
 
 
