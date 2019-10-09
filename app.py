@@ -12,9 +12,9 @@ db_url = 'localhost'
 db_name = 'BoardGameStat'
 
 app = Flask(__name__)
-heroku = Heroku(app)
+#heroku = Heroku(app)
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
 
 db = SQLAlchemy(app)
 
@@ -46,7 +46,7 @@ def fullflush():
     :return:
     """
     from DatabaseInteractions import rebuild_database, load_xml_into_database
-    # rebuild_database()
+    rebuild_database()
 
     load_xml_into_database(player_data.read_all())
 
