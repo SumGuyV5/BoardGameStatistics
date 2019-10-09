@@ -3,7 +3,6 @@ from bokeh.models import LabelSet
 from bokeh.plotting import figure
 from bokeh.transform import factor_cmap
 from bokeh.embed import components
-import operator
 import bokeh
 
 ignore = ['Keith', 'Paul', 'Dempsey', 'Other', 'Kelly', 'Alyssa', 'Player 6', 'Mark', 'Player 7',
@@ -32,7 +31,6 @@ def build_graph(feature_name):
         players_info = points_per_game()
 
     title = f'Players {feature_name}'
-    # players_info = sorted(players_info.items(), key=lambda item: (item[1], item[0]), reverse=True)
 
     players = []
     counts = []
