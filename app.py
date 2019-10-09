@@ -22,6 +22,16 @@ player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
 
+@app.route('/files')
+def files():
+    import os
+    from os import listdir
+    from os.path import isfile, join
+    onlyfiles = [f for f in listdir(os.getcwd()) if isfile(join(os.getcwd(), f))]
+    div = ''
+    for file in onlyfiles:
+        div += f'<div>{file}</div>'
+    return render_template('index.html', div=div )
 
 @app.route('/fullxmldownload')
 def fullxmldownload():
