@@ -1,7 +1,7 @@
 import time
 from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
-from modules.GraphBuilder import build_graph, build_graph2
+from modules.GraphBuilder import build_graph
 from modules.PlayerData import PlayerData
 
 db_user = 'BoardGameStat'
@@ -42,6 +42,8 @@ def fullflush():
 
 @app.route('/update')
 def update():
+    from DatabaseInteractions import number_records
+    player_data.update(number_records())
     return render_template('index.html')
 
 

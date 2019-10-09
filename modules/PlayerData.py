@@ -35,8 +35,10 @@ class PlayerData:
         self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)
         return self.readXML.plays
 
-    def update(self, num_plays):
-        url = self.url.replace('pagesize=100', 'pagesize=10')
+    def update(self, num_plays, pagesize=10):
+        from DatabaseInteractions import add_records
+        val = False
+        url = self.url.replace('pagesize=100', f'pagesize={pagesize}')
 
         download = DownloadXML(url, 'update.xml')
         download.download()
@@ -44,7 +46,11 @@ class PlayerData:
         read.read_xml_file('update.xml')
         if read.play_count > num_plays:
             how_many = read.play_count - num_plays
-            if how_many > 10:
-                url = self.url.replace('pagesize=10', f'pagesize={how_many}')
+            if how_many > pagesize:
+                val = self.update(num_plays, how_many)
+            add_records(read.plays)
+
+        return val
+
 
 

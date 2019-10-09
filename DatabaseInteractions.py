@@ -11,6 +11,10 @@ def rebuild_database():
     db.create_all()
 
 
+def number_records():
+    return db.session.query(PlayDataset).count()
+
+
 def update_database_check(play):
     """
     :param play: a PlayXMLDataset.
@@ -52,7 +56,7 @@ def add_records(plays):
     :return:
     """
     for play in plays:
-        if PlayDataset.query.filter_py(id=play.id).first() is None:
+        if PlayDataset.query.filter_by(id=play.id).first() is None:
             add_record(play)
 
 
