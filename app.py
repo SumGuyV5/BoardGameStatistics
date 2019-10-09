@@ -3,6 +3,7 @@ from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from modules.GraphBuilder import build_graph
 from modules.PlayerData import PlayerData
+from flask.ext.heroku import Heroku
 
 db_user = 'BoardGameStat'
 db_password = '04122442134234cdd2da81598665ffa1b66ec281678934c036377f7271eb0de133bd531b030d62885b7911a' \
@@ -11,8 +12,9 @@ db_url = 'localhost'
 db_name = 'BoardGameStat'
 
 app = Flask(__name__)
+heroku = Heroku(app)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
+#app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
 
 db = SQLAlchemy(app)
 
@@ -34,7 +36,7 @@ def fullflush():
     :return:
     """
     from DatabaseInteractions import rebuild_database, load_xml_into_database
-    rebuild_database()
+    #rebuild_database()
 
     load_xml_into_database(player_data.read_all())
 
