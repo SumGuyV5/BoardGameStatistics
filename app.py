@@ -5,7 +5,8 @@ from modules.GraphBuilder import build_graph
 from modules.PlayerData import PlayerData
 
 db_user = 'BoardGameStat'
-db_password = 'B0@rdG@m39'
+db_password = '04122442134234cdd2da81598665ffa1b66ec281678934c036377f7271eb0de133bd531b030d62885b7911a' \
+              '5260b731f6a82d89666d4bd033552441fa650be98'
 db_url = 'localhost'
 db_name = 'BoardGameStat'
 
