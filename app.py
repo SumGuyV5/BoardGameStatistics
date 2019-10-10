@@ -21,7 +21,8 @@ db = SQLAlchemy(app)
 player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
-feature_database = ['Nothing', 'Download All XML Files', 'Read All XML Files', 'Inputing XML Data', 'Clear Database']
+feature_database = ['Nothing', 'Download All XML Files', 'Read All XML Files', 'Inputting XML Data', 'Clear Database',
+                    'Inputting and Read']
 
 
 def gen(template_name, **context):
@@ -49,6 +50,8 @@ def database():
         rows = player_data.input_data()
     elif current_feature_database == feature_database[4]:
         rows = player_data.clear()
+    elif current_feature_database == feature_database[5]:
+        rows = player_data.input_read()
 
     return Response(gen('infodisplay.html', rows=rows, feature_database=feature_database,
                         current_feature_database=current_feature_database))

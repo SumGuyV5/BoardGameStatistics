@@ -50,6 +50,22 @@ class PlayerData:
         yield f'A total of {idx} Records Inputted.'
         commit()
 
+    def input_read(self):
+        from DatabaseInteractions import add_record, commit
+        yield "Reading All XML files..."
+        idx = 0
+        for i in range(1, self.count_to + 1):
+            self.readXML.plays = None
+            yield f'Reading Plays{str(i)}'
+            self.readXML.read_xml_file(f'plays{str(i)}.xml')
+            for play in self.readXML.plays:
+                yield f'Record {play.id}'
+                add_record(play)
+                idx += 1
+            commit()
+        yield "Done Reading All XML files..."
+        yield f'A total of {idx} Records Inputted.'
+
     @staticmethod
     def clear():
         from DatabaseInteractions import rebuild_database
