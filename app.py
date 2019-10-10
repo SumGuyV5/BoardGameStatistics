@@ -22,6 +22,14 @@ player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
 
+
+def gen(template_name, **context):
+    app.update_template_context(context)
+    t = app.jinja_env.get_template(template_name)
+    rv = t.stream(context)
+    rv.enable_buffering(5)
+    return rv
+
 @app.route('/files')
 def files():
     import os
@@ -36,13 +44,6 @@ def files():
 
 @app.route('/fullxmldownload')
 def fullxmldownload():
-    def gen(template_name, **context):
-        app.update_template_context(context)
-        t = app.jinja_env.get_template(template_name)
-        rv = t.stream(context)
-        rv.enable_buffering(5)
-        return rv
-
     rows=player_data.force_refresh()
     return Response(gen('infodisplay.html', rows=rows))
 
