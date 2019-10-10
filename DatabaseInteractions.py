@@ -1,6 +1,5 @@
 from DatabaseModels import PlayDataset
 from DatabaseModels import db
-#import psycopg2.errors.UniqueViolation
 
 
 def rebuild_database():

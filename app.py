@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, Response
 from flask_sqlalchemy import SQLAlchemy
 from modules.GraphBuilder import build_graph
 from modules.PlayerData import PlayerData
-from flask_heroku import Heroku
+# from flask_heroku import Heroku
 from flask_executor import Executor
 
 db_user = 'BoardGameStat'
@@ -13,10 +13,10 @@ db_url = 'localhost'
 db_name = 'BoardGameStat'
 
 app = Flask(__name__)
-heroku = Heroku(app)
+# heroku = Heroku(app)
 executor = Executor(app)
 
-# app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
 
 db = SQLAlchemy(app)
 
@@ -41,10 +41,12 @@ def gen(template_name, **context):
     rv.enable_buffering(5)
     return rv
 
+
 @app.route('/data')
 def data():
     executor.submit(datainstall)
     return render_template('index.html')
+
 
 @app.route('/database')
 def database():
