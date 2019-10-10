@@ -1,5 +1,5 @@
 import time
-from flask import Flask, render_template, request, Response, stream_with_context
+from flask import Flask, render_template, request, Response
 from flask_sqlalchemy import SQLAlchemy
 from modules.GraphBuilder import build_graph
 from modules.PlayerData import PlayerData
@@ -14,7 +14,7 @@ db_name = 'BoardGameStat'
 app = Flask(__name__)
 heroku = Heroku(app)
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
+# app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
 
 db = SQLAlchemy(app)
 
@@ -41,18 +41,18 @@ def files():
     div = ''
     for file in onlyfiles:
         div += f'<div>{file}</div>'
-    return render_template('index.html', div=div )
+    return render_template('index.html', div=div)
 
 
 @app.route('/fullxmldownload')
 def fullxmldownload():
-    rows=player_data.force_refresh()
+    rows = player_data.force_refresh()
     return Response(gen('infodisplay.html', rows=rows))
 
 
 @app.route('/fullxmlread')
 def fullxmlread():
-    rows=player_data.read_all()
+    rows = player_data.read_all()
     return Response(gen('infodisplay.html', rows=rows))
 
 
@@ -71,7 +71,7 @@ def database():
         rows = player_data.read_all()
 
     return Response(gen('infodisplay.html', rows=rows, feature_database=feature_database,
-                           current_feature_database=current_feature_database))
+                        current_feature_database=current_feature_database))
 
 
 @app.route('/fullflush')

@@ -1,4 +1,3 @@
-import os
 import BGGModule.Functions
 from BGGModule.DownloadXML import DownloadXML
 from BGGModule.ReadXML import ReadXML
