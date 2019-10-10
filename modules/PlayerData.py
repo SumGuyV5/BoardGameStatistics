@@ -33,8 +33,11 @@ class PlayerData:
         yield "Download All Complete!"
 
     def read_all(self):
-        self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)
-        return self.readXML.plays
+        yield "Reading All XML files..."
+        for i in range(1, self.count_to + 1):
+            yield f'Reading Plays{str(i)}'
+            self.readXML.read_xml_file(f'plays{str(i)}.xml')
+        yield "Done Reading All XML files..."
 
     def update(self, num_plays, pagesize=10):
         from DatabaseInteractions import add_records

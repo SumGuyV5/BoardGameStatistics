@@ -63,7 +63,9 @@ def database():
         current_feature_database = feature_database[0]
 
     rows = None
-    if current_feature_database == feature_database[1]:
+    if current_feature_database == feature_database[0]:
+        rows = ["Nothing."]
+    elif current_feature_database == feature_database[1]:
         rows = player_data.force_refresh()
     elif current_feature_database == feature_database[2]:
         rows = player_data.read_all()
