@@ -1,5 +1,6 @@
 from DatabaseModels import PlayDataset
 from DatabaseModels import db
+#import psycopg2.errors.UniqueViolation
 
 
 def rebuild_database():
@@ -67,7 +68,11 @@ def add_record(play):
     :param play:
     :return:
     """
-    db.session.add(PlayDataset(xml=play))
+    try:
+        db.session.add(PlayDataset(xml=play))
+    except Exception as e:
+        print(e)
+        db.session.rollback()
 
 
 def load_database_into_xml():
