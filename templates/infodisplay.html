@@ -12,6 +12,17 @@
 <body>
     <div class="container" id="grad">
         <h1>Board Game Statistics</h1>
+        <form action="/database">
+        <select name="feature_database">
+            {% for feature in feature_database %}
+                {% if feature == current_feature_name %}
+                    <option selected value="{{ feature }}">{{ feature }}</option>
+                {% else %}
+                    <option value="{{ feature }}">{{ feature }}</option>
+                {% endif %}
+            {% endfor %}
+        </select>
+        <button type="submit">Submit</button>
         <p class="black">This is some streamed content:</p>
         {% for row in rows %}
             <div class="black">{{ row }}</div>

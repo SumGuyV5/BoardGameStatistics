@@ -21,6 +21,7 @@ db = SQLAlchemy(app)
 player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
+feature_database = ['Nothing', 'Download All XML Files', 'Read All XML Files']
 
 
 def gen(template_name, **context):
@@ -29,6 +30,7 @@ def gen(template_name, **context):
     rv = t.stream(context)
     rv.enable_buffering(5)
     return rv
+
 
 @app.route('/files')
 def files():
@@ -46,6 +48,28 @@ def files():
 def fullxmldownload():
     rows=player_data.force_refresh()
     return Response(gen('infodisplay.html', rows=rows))
+
+
+@app.route('/fullxmlread')
+def fullxmlread():
+    rows=player_data.read_all()
+    return Response(gen('infodisplay.html', rows=rows))
+
+
+@app.route('/database')
+def database():
+    current_feature_database = request.args.get("feature_database")
+    if current_feature_database is None:
+        current_feature_database = feature_database[0]
+
+    rows = None
+    if current_feature_database == feature_database[1]:
+        rows = player_data.force_refresh()
+    elif current_feature_database == feature_database[2]:
+        rows = player_data.read_all()
+
+    return Response(gen('infodisplay.html', rows=rows, feature_database=feature_database,
+                           current_feature_database=current_feature_database))
 
 
 @app.route('/fullflush')
