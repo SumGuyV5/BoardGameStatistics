@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from modules.GraphBuilder import build_graph
 from modules.PlayerData import PlayerData
 from flask_heroku import Heroku
+from flask_executor import Executor
 
 db_user = 'BoardGameStat'
 db_password = '04122442134234cdd2da81598665ffa1b66ec281678934c036377f7271eb0de133bd531b030d62885b7911a' \
@@ -13,6 +14,7 @@ db_name = 'BoardGameStat'
 
 app = Flask(__name__)
 heroku = Heroku(app)
+executor = Executor(app)
 
 # app.config['SQLALCHEMY_DATABASE_URI'] = f'postgresql://{db_user}:{db_password}@{db_url}/{db_name}'
 
@@ -25,6 +27,13 @@ feature_database = ['Nothing', 'Download All XML Files', 'Read All XML Files', '
                     'Inputting and Read']
 
 
+def datainstall():
+    player_data.clear()
+    player_data.download_all()
+    player_data.read_all()
+    player_data.input_data()
+
+
 def gen(template_name, **context):
     app.update_template_context(context)
     t = app.jinja_env.get_template(template_name)
@@ -32,6 +41,10 @@ def gen(template_name, **context):
     rv.enable_buffering(5)
     return rv
 
+@app.route('/data')
+def data():
+    executor.submit(datainstall)
+    return render_template('index.html')
 
 @app.route('/database')
 def database():

@@ -25,7 +25,6 @@ class ReadXML:
         self.plays = []
 
     def read_xml_file(self, filename):
-        self.plays = []
         try:
             self.__dom = parse(filename)
         except IOError:
@@ -44,6 +43,7 @@ class ReadXML:
 
     def read_xml_all(self, filename, count_to):
         """Filename only no extension."""
+        self.plays = []
         print("Reading All XML files...")
         for i in range(1, count_to + 1):
             self.read_xml_file(f'{filename}{str(i)}.xml')

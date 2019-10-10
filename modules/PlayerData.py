@@ -28,57 +28,57 @@ class PlayerData:
         return BGGModule.Functions.load_info(self.ignore, plays)
 
     def download_all(self):
-        yield "Download All Starting!"
+        print("Download All Starting!")
         for i in range(1, self.count_to + 1):
-            yield f'Downloading Plays{str(i)}'
+            print(f'Downloading Plays{str(i)}')
             if os.path.isfile(f'plays{str(i)}.xml'):
                 continue
             self.downloadXML.download(self.url + str(i), f'plays{str(i)}.xml')
-        yield "Download All Complete!"
+        print("Download All Complete!")
 
     def read_all(self):
-        yield "Reading All XML files..."
+        print("Reading All XML files...")
         for i in range(1, self.count_to + 1):
-            yield f'Reading Plays{str(i)}'
+            print(f'Reading Plays{str(i)}')
             self.readXML.read_xml_file(f'plays{str(i)}.xml')
-        yield "Done Reading All XML files..."
+        print("Done Reading All XML files...")
 
     def input_data(self):
         from DatabaseInteractions import add_record, commit
-        yield "Inputing data into database..."
+        print("Inputting data into database...")
         idx = 0
         for play in self.readXML.plays:
-            yield f'Record {play.id}'
+            print(f'Record {play.id}')
             add_record(play)
             idx += 1
-        yield "Done Inputing data into database..."
-        yield f'A total of {idx} Records Inputted.'
+        print("Done Inputting data into database...")
+        print(f'A total of {idx} Records Inputted.')
         commit()
 
     def input_read(self):
         from DatabaseInteractions import add_record, commit
-        yield "Reading All XML files..."
+        print("Reading All XML files...")
         idx = 0
         for i in range(self.left_off, self.count_to + 1):
             self.readXML.plays = []
-            yield f'Reading Plays{str(i)}'
+            print(f'Reading Plays{str(i)}')
             self.readXML.read_xml_file(f'plays{str(i)}.xml')
             for play in self.readXML.plays:
-                yield f'Record {play.id}'
+                print(f'Record {play.id}')
                 add_record(play)
                 idx += 1
             commit()
             self.left_off = i
-        yield "Done Reading All XML files..."
-        yield f'A total of {idx} Records Inputted.'
+        print("Done Reading All XML files...")
+        print(f'A total of {idx} Records Inputted.')
         self.left_off = 1
 
     @staticmethod
     def clear():
         from DatabaseInteractions import rebuild_database
-        yield 'Clear Database...'
+        print('Clear Database...')
         rebuild_database()
-        yield 'Database Clear...'
+        print('Database Clear...')
 
     def update(self, num_plays, pagesize=10):
         from DatabaseInteractions import add_records
