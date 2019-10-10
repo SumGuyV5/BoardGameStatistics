@@ -51,7 +51,7 @@ class DownloadXML:
         """
         print("Download All Starting!")
         for i in range(1, count_to + 1):
-            self.download(download_url + str(i), filename + str(i) + ".xml")
+            self.download(download_url + str(i), f'{filename}{str(i)}.xml')
         print("Download All Complete!")
 
 
