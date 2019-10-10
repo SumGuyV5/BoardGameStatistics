@@ -26,10 +26,11 @@ class PlayerData:
         return BGGModule.Functions.load_info(self.ignore, plays)
 
     def force_refresh(self):
-        self.count_to = BGGModule.Functions.count_to(self.username, self.pagesize)
-        self.downloadXML.download_all(self.url, "plays", self.count_to)
-
-        return self.read_all()
+        yield "Download All Starting!"
+        for i in range(1, self.count_to + 1):
+            yield f'Downloading Plays{str(i)}'
+            self.downloadXML.download(self.url + str(i), f'plays{str(i)}.xml')
+        yield "Download All Complete!"
 
     def read_all(self):
         self.readXML.read_xml_all(os.path.join(os.getcwd(), "plays"), self.count_to)

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Board Game Statistics</title>
+    <link href="../static/main.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+</head>
+<body>
+    <div class="container" id="grad">
+        <h1>Board Game Statistics</h1>
+        <p class="black">This is some streamed content:</p>
+        {% for row in rows %}
+            <div class="black">{{ row }}</div>
+        {% endfor %}
+    </div>
+</body>
+</html>

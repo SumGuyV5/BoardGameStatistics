@@ -1,5 +1,5 @@
 import time
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, Response, stream_with_context
 from flask_sqlalchemy import SQLAlchemy
 from modules.GraphBuilder import build_graph
 from modules.PlayerData import PlayerData
@@ -33,10 +33,18 @@ def files():
         div += f'<div>{file}</div>'
     return render_template('index.html', div=div )
 
+
 @app.route('/fullxmldownload')
 def fullxmldownload():
-    player_data.force_refresh()
-    return render_template('index.html')
+    def gen(template_name, **context):
+        app.update_template_context(context)
+        t = app.jinja_env.get_template(template_name)
+        rv = t.stream(context)
+        rv.enable_buffering(5)
+        return rv
+
+    rows=player_data.force_refresh()
+    return Response(gen('infodisplay.html', rows=rows))
 
 
 @app.route('/fullflush')

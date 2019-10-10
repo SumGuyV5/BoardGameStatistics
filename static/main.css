@@ -3,7 +3,12 @@ html, body {
     margin: 0;
 }
 
-.visually_hidden span{
+.black {
+    color: Black;
+    background-color: white
+}
+
+.visually_hidden span {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
