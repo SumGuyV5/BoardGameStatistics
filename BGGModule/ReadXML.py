@@ -25,6 +25,7 @@ class ReadXML:
         self.plays = []
 
     def read_xml_file(self, filename):
+        self.plays = []
         try:
             self.__dom = parse(filename)
         except IOError:

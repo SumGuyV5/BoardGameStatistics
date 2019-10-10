@@ -1,4 +1,5 @@
 import BGGModule.Functions
+import os
 from BGGModule.DownloadXML import DownloadXML
 from BGGModule.ReadXML import ReadXML
 
@@ -21,6 +22,8 @@ class PlayerData:
         self.re_download = False
         self.count_to = BGGModule.Functions.count_to(self.username, self.pagesize)
 
+        self.left_off = 1
+
     def read(self, plays):
         return BGGModule.Functions.load_info(self.ignore, plays)
 
@@ -28,6 +31,8 @@ class PlayerData:
         yield "Download All Starting!"
         for i in range(1, self.count_to + 1):
             yield f'Downloading Plays{str(i)}'
+            if os.path.isfile(f'plays{str(i)}.xml'):
+                continue
             self.downloadXML.download(self.url + str(i), f'plays{str(i)}.xml')
         yield "Download All Complete!"
 
@@ -54,7 +59,7 @@ class PlayerData:
         from DatabaseInteractions import add_record, commit
         yield "Reading All XML files..."
         idx = 0
-        for i in range(1, self.count_to + 1):
+        for i in range(self.left_off, self.count_to + 1):
             self.readXML.plays = []
             yield f'Reading Plays{str(i)}'
             self.readXML.read_xml_file(f'plays{str(i)}.xml')
@@ -63,8 +68,10 @@ class PlayerData:
                 add_record(play)
                 idx += 1
             commit()
+            self.left_off = i
         yield "Done Reading All XML files..."
         yield f'A total of {idx} Records Inputted.'
+        self.left_off = 1
 
     @staticmethod
     def clear():
