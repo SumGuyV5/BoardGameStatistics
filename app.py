@@ -21,7 +21,7 @@ db = SQLAlchemy(app)
 player_data = PlayerData()
 
 feature_names = ['Win Percentage', 'H-Index', 'Total Games Played', 'Wins', 'Loss', 'Total Points', 'Points Per Game']
-feature_database = ['Nothing', 'Download All XML Files', 'Read All XML Files']
+feature_database = ['Nothing', 'Download All XML Files', 'Read All XML Files', 'Inputing XML Data', 'Clear Database']
 
 
 def gen(template_name, **context):
@@ -30,30 +30,6 @@ def gen(template_name, **context):
     rv = t.stream(context)
     rv.enable_buffering(5)
     return rv
-
-
-@app.route('/files')
-def files():
-    import os
-    from os import listdir
-    from os.path import isfile, join
-    onlyfiles = [f for f in listdir(os.getcwd()) if isfile(join(os.getcwd(), f))]
-    div = ''
-    for file in onlyfiles:
-        div += f'<div>{file}</div>'
-    return render_template('index.html', div=div)
-
-
-@app.route('/fullxmldownload')
-def fullxmldownload():
-    rows = player_data.force_refresh()
-    return Response(gen('infodisplay.html', rows=rows))
-
-
-@app.route('/fullxmlread')
-def fullxmlread():
-    rows = player_data.read_all()
-    return Response(gen('infodisplay.html', rows=rows))
 
 
 @app.route('/database')
@@ -66,9 +42,13 @@ def database():
     if current_feature_database == feature_database[0]:
         rows = ["Nothing."]
     elif current_feature_database == feature_database[1]:
-        rows = player_data.force_refresh()
+        rows = player_data.download_all()
     elif current_feature_database == feature_database[2]:
         rows = player_data.read_all()
+    elif current_feature_database == feature_database[3]:
+        rows = player_data.input_data()
+    elif current_feature_database == feature_database[4]:
+        rows = player_data.clear()
 
     return Response(gen('infodisplay.html', rows=rows, feature_database=feature_database,
                         current_feature_database=current_feature_database))

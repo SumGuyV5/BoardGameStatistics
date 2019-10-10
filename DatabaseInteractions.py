@@ -58,6 +58,7 @@ def add_records(plays):
     for play in plays:
         if PlayDataset.query.filter_by(id=play.id).first() is None:
             add_record(play)
+    commit()
 
 
 def add_record(play):
@@ -67,7 +68,6 @@ def add_record(play):
     :return:
     """
     db.session.add(PlayDataset(xml=play))
-    db.session.commit()
 
 
 def load_database_into_xml():
@@ -92,5 +92,9 @@ def load_xml_into_database(plays):
     # for play in plays:
     #    db.session.add(PlayDataset(xml=play))
     # db.session.commit()
+
+
+def commit():
+    db.session.commit()
 
 

@@ -24,7 +24,7 @@ class PlayerData:
     def read(self, plays):
         return BGGModule.Functions.load_info(self.ignore, plays)
 
-    def force_refresh(self):
+    def download_all(self):
         yield "Download All Starting!"
         for i in range(1, self.count_to + 1):
             yield f'Downloading Plays{str(i)}'
@@ -37,6 +37,25 @@ class PlayerData:
             yield f'Reading Plays{str(i)}'
             self.readXML.read_xml_file(f'plays{str(i)}.xml')
         yield "Done Reading All XML files..."
+
+    def input_data(self):
+        from DatabaseInteractions import add_record, commit
+        yield "Inputing data into database..."
+        idx = 0
+        for play in self.readXML.plays:
+            yield f'Record {play.id}'
+            add_record(play)
+            idx += 1
+        yield "Done Inputing data into database..."
+        yield f'A total of {idx} Records Inputted.'
+        commit()
+
+    @staticmethod
+    def clear():
+        from DatabaseInteractions import rebuild_database
+        yield 'Clear Database...'
+        rebuild_database()
+        yield 'Database Clear...'
 
     def update(self, num_plays, pagesize=10):
         from DatabaseInteractions import add_records

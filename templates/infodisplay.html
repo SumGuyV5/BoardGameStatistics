@@ -15,7 +15,7 @@
         <form action="/database">
         <select name="feature_database">
             {% for feature in feature_database %}
-                {% if feature == current_feature_name %}
+                {% if feature == current_feature_database %}
                     <option selected value="{{ feature }}">{{ feature }}</option>
                 {% else %}
                     <option value="{{ feature }}">{{ feature }}</option>
@@ -23,6 +23,7 @@
             {% endfor %}
         </select>
         <button type="submit">Submit</button>
+        </form>
         <p class="black">This is some streamed content:</p>
         {% for row in rows %}
             <div class="black">{{ row }}</div>
