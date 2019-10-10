@@ -55,7 +55,7 @@ class PlayerData:
         yield "Reading All XML files..."
         idx = 0
         for i in range(1, self.count_to + 1):
-            self.readXML.plays = None
+            self.readXML.plays = []
             yield f'Reading Plays{str(i)}'
             self.readXML.read_xml_file(f'plays{str(i)}.xml')
             for play in self.readXML.plays:
