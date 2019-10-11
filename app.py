@@ -41,10 +41,12 @@ def gen(template_name, **context):
     rv.enable_buffering(5)
     return rv
 
+
 @app.route('/data')
 def data():
     executor.submit(datainstall)
     return render_template('index.html')
+
 
 @app.route('/database')
 def database():
