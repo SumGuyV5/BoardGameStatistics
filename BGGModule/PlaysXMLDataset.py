@@ -34,6 +34,33 @@ class PlaysXMLDataset:
         self.game_name = game_name
         self.gameid = gameid
 
+    def __eq__(self, other):
+        return self.id == other.id and \
+               self.date == other.date and \
+               self.quantity == other.quantity and \
+               self.length == other.length and \
+               self.incomplete == other.incomplete and \
+               self.nowinstats == other.nowinstats and \
+               self.location == other.location and \
+               self.game_name == other.game_name and \
+               self.gameid == other.gameid and \
+               self.players == other.players
+
+    def __ne__(self, other):
+        return self.id != other.id or \
+               self.date != other.date or \
+               self.quantity != other.quantity or \
+               self.length != other.length or \
+               self.incomplete != other.incomplete or \
+               self.nowinstats != other.nowinstats or \
+               self.location != other.location or \
+               self.game_name != other.game_name or \
+               self.gameid != other.gameid or \
+               self.players != other.players
+
+    def date_str(self):
+        return self.__date.strftime("%Y-%m-%d")
+
     @property
     def date(self):
         return self.__date
@@ -61,10 +88,7 @@ class PlaysXMLDataset:
         self.players.append(player)
 
     def find_player_by_name(self, name):
-        for idx, player in enumerate(self.players):
-            if player.name == name:
-                return idx
-        return -1
+        return next((x for x in self.players if x.name == name), None)
 
     def winners_count(self):
         val = 0

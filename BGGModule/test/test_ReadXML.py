@@ -18,31 +18,31 @@ class ReadXMLTests(unittest.TestCase):
                                 location="", game_name="Coup", gameid=131357)]
 
     xml_data[0].players = [
-        PlayerXMLDataset(username="SumGuyV5", userid=508171, name="Richard Allen", startposition=1, colour="",
+        PlayerXMLDataset(username="SumGuyV5", userid=508171, name="Richard Allen", position=1, colour="",
                          score=32, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Jeff", startposition=2, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Jeff", position=2, colour="",
                          score=30, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Tanya", startposition=3, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Tanya", position=3, colour="",
                          score=41.1, new=False, rating=0, win=True),
-        PlayerXMLDataset(username="", userid=0, name="Arden", startposition=4, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Arden", position=4, colour="",
                          score=35, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Shelly", startposition=5, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Shelly", position=5, colour="",
                          score=29, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Alex", startposition=6, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Alex", position=6, colour="",
                          score=32, new=False, rating=0, win=False)]
 
     xml_data[1].players = [
-        PlayerXMLDataset(username="SumGuyV5", userid=508171, name="Richard Allen", startposition=1, colour="",
+        PlayerXMLDataset(username="SumGuyV5", userid=508171, name="Richard Allen", position=1, colour="",
                          score=0, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Jeff", startposition=2, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Jeff", position=2, colour="",
                          score=0, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Tanya", startposition=3, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Tanya", position=3, colour="",
                          score=0, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Damon", startposition=4, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Damon", position=4, colour="",
                          score=0, new=False, rating=0, win=False),
-        PlayerXMLDataset(username="", userid=0, name="Arden", startposition=5, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Arden", position=5, colour="",
                          score=0, new=False, rating=0, win=True),
-        PlayerXMLDataset(username="", userid=0, name="Shelly", startposition=6, colour="",
+        PlayerXMLDataset(username="", userid=0, name="Shelly", position=6, colour="",
                          score=0, new=False, rating=0, win=False)]
 
     def test_read_xml_file(self):

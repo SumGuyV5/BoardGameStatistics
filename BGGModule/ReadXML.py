@@ -29,6 +29,7 @@ class ReadXML:
             self.__dom = parse(filename)
         except IOError:
             print(f'File IO Error on file name {filename}.')
+            return
 
         plays_info = self.__dom.getElementsByTagName("plays")
         for play_info in plays_info:
@@ -79,7 +80,7 @@ class ReadXML:
         rtn.userid = int(player.attributes['userid'].value)
         rtn.name = player.attributes['name'].value
         try:
-            rtn.startposition = int(player.attributes['startposition'].value)
+            rtn.position = int(player.attributes['startposition'].value)
         except ValueError:
             pass
         rtn.colour = player.attributes['color'].value

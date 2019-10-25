@@ -81,7 +81,7 @@ class PlayersPlayDataset(db.Model):
                                     backref=db.backref('players_play_dataset', lazy=True))  # One to One
     playdataset_id = db.Column(db.Integer, db.ForeignKey('play_dataset.id'), nullable=False)
     playdataset = db.relationship('PlayDataset', backref=db.backref('players_play_dataset', lazy=True))  # Many to One
-    startposition = db.Column(db.Integer)
+    position = db.Column(db.Integer)
     colour = db.Column(db.String(40))
     score = db.Column(db.Float)
     new = db.Column(db.Boolean)
@@ -91,12 +91,12 @@ class PlayersPlayDataset(db.Model):
     @property
     def xml(self):
         return PlayerXMLDataset(username=self.playerdataset.username, userid=self.playerdataset.userid,
-                                name=self.playerdataset.name, startposition=self.startposition, colour=self.colour,
+                                name=self.playerdataset.name, position=self.position, colour=self.colour,
                                 score=float(self.score), new=self.new, rating=self.rating, win=self.win)
 
     @xml.setter
     def xml(self, val):
-        self.startposition = val.startposition
+        self.position = val.position
         self.colour = val.colour
         self.score = float(val.score)
         self.new = val.new
